@@ -1,9 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/readme/","title":"ISO/SAE 21434:2021 證照學習 Vault","tags":["gardenEntry"],"dg-note-properties":{"title":"ISO/SAE 21434:2021 證照學習 Vault","created":"2026-05-11"}}
+{"dg-publish":true,"permalink":"/readme/","title":"ISO/SAE 21434:2021 證照學習筆記","tags":["gardenEntry"],"dg-note-properties":{"title":"ISO/SAE 21434:2021 證照學習筆記","created":"2026-05-11"}}
 ---
 
-
-# ISO/SAE 21434:2021 證照學習筆記
 
 > **Road vehicles — Cybersecurity engineering** 證照準備完整筆記。
 > 涵蓋 Clause 4-15 + Annex + TARA + 練習題 + 模擬試題。
@@ -15,30 +13,29 @@
 1. **[[00-Dashboard/MOC\|學習地圖 (MOC)]]** — 完整章節索引與學習路徑
 2. **[[00-Dashboard/Quick-Reference\|速查表]]** — 一頁速覽全標準
 3. **[[00-Dashboard/Exam-Traps\|考試陷阱]]** — 15 個易混淆觀念
-4. **[[00-Dashboard/Weak-Areas\|個人弱點區]]** — 動態紀錄錯題
 
 ---
 
 ## 章節結構
 
-| 編號     | 主題                          | 對應 Clause            | 檔案數 |
-| -------- | ----------------------------- | ---------------------- | ------ |
-| **00**   | Dashboard（入口）             | —                      | 4      |
-| **01**   | Foundations 基礎              | Clause 1-4 + 法規      | 6      |
-| **02**   | Organizational Mgmt           | Clause 5 (CSMS)        | 7      |
-| **03**   | Project-Dependent             | Clause 6               | 8      |
-| **04**   | Distributed Activities        | Clause 7 (CIA)         | 4      |
-| **05**   | Continual Activities          | Clause 8               | 5      |
-| **06**   | Concept Phase                 | Clause 9               | 5      |
-| **07**   | Product Development           | Clause 10              | 5      |
-| **08**   | Validation                    | Clause 11              | 3      |
-| **09**   | Production                    | Clause 12              | 3      |
-| **10**   | Operations & Maintenance      | Clause 13              | 3      |
-| **11**   | End of Support / Decommission | Clause 14              | 3      |
-| **12**   | TARA Methods                  | **Clause 15 (⭐核心)** | 9      |
-| **13**   | Annexes & Tools               | Annex E + 業界方法     | 4      |
-| **14**   | Exam Practice                 | 綜合模擬               | 3      |
-| **總計** |                               |                        | **72** |
+| 編號     | 主題                            | 對應 Clause           | 檔案數    |
+| ------ | ----------------------------- | ------------------- | ------ |
+| **00** | Dashboard（入口）                 | —                   | 4      |
+| **01** | Foundations 基礎                | Clause 1-4 + 法規     | 6      |
+| **02** | Organizational Mgmt           | Clause 5 (CSMS)     | 7      |
+| **03** | Project-Dependent             | Clause 6            | 8      |
+| **04** | Distributed Activities        | Clause 7 (CIA)      | 4      |
+| **05** | Continual Activities          | Clause 8            | 5      |
+| **06** | Concept Phase                 | Clause 9            | 5      |
+| **07** | Product Development           | Clause 10           | 5      |
+| **08** | Validation                    | Clause 11           | 3      |
+| **09** | Production                    | Clause 12           | 3      |
+| **10** | Operations & Maintenance      | Clause 13           | 3      |
+| **11** | End of Support / Decommission | Clause 14           | 3      |
+| **12** | TARA Methods                  | **Clause 15 (⭐核心)** | 9      |
+| **13** | Annexes & Tools               | Annex E + 業界方法      | 4      |
+| **14** | Exam Practice                 | 綜合模擬                | 3      |
+| **總計** |                               |                     | **72** |
 
 ---
 
@@ -114,8 +111,7 @@ Week 5：補強 + 模擬題
 1. **背骨架**：先讀 [[00-Dashboard/Quick-Reference\|00-Dashboard/Quick-Reference]] 速覽全標準
 2. **深入概念**：依 MOC 順序讀各章節筆記
 3. **作題驗證**：每讀完一章做對應 Practice
-4. **錯題回顧**：寫入 [[00-Dashboard/Weak-Areas\|00-Dashboard/Weak-Areas]]
-5. **考前衝刺**：14-Exam-Practice 模擬題 + Exam-Traps 重看
+4. **考前衝刺**：14-Exam-Practice 模擬題 + Exam-Traps 重看
 
 ---
 
