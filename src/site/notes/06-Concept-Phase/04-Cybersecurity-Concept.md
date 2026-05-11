@@ -21,7 +21,7 @@ TARA (Clause 15)
    ↓
 Cybersecurity Goals (Clause 9.4)
    +
-Cybersecurity Claims (Clause 9.5)
+Cybersecurity Claims (Clause 9.4 — 與 Goals 同節，作為 risk treatment 的另一面)
    ↓
 Cybersecurity Concept (Clause 9.5)  ← 概念解決方案
    ↓
@@ -55,14 +55,14 @@ cybersecurity_concept:
 
     - cs_goal: CG-002 (Cellular link confidentiality)
       concept_solution:
-        - approach: "TLS 1.3 with certificate pinning + per-device key"
+        - approach: "Mutually-authenticated encrypted transport (TLS-class) with per-device identity + forward secrecy"
         - mechanisms:
-            - "TLS 1.3 mandated; older versions rejected"
-            - "Server certificate pinning to OEM backend CA"
-            - "Client certificate per device (provisioned at production)"
-            - "Perfect Forward Secrecy via ECDHE"
+            - "Server identity pinning"
+            - "Per-device client credentials (provisioned at production)"
+            - "Forward secrecy in key agreement"
         - constraints:
             - "Must work with 4G fallback when 5G unavailable"
+        # ⚠ Concept 階段宜保留 approach 層級，**避免**寫死「TLS 1.3」「ECDHE」等具體演算法——這些屬 Clause 10 Requirements / Design 細節
 
   for_each_cs_claim:
     - cs_claim: CL-001 (OBD physical security)

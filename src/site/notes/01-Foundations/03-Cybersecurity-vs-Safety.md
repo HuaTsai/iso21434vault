@@ -161,8 +161,10 @@ Operations:
 
 ## ISO 21434 對 ISO 26262 的明確引用
 
-> [!quote] Clause 4
-> ISO 21434 acknowledges interaction with ISO 26262 and recommends coordinated approach. Where conflicts arise between cybersecurity and safety requirements, **safety considerations shall take precedence**.
+> [!note] Clause 4 概要（非 verbatim）
+> ISO 21434 Clause 4 要求**與 ISO 26262 協調**，並考量資安活動對 safety 的影響。
+>
+> **業界共識**：當 cybersecurity 與 safety 需求衝突時，safety 優先處置——但這是業界實務原則，**ISO 21434 Clause 4 本身並未以 "shall" 明文規定 "safety precedence"**。決策需文件化於 CS Case 並由適當層級接受。
 
 ---
 

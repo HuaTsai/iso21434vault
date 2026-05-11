@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/03-project-dependent/03-tailoring/","title":"裁適 (Tailoring)","tags":["iso-21434","concept-note","project-dependent","tailoring"],"dg-note-properties":{"title":"裁適 (Tailoring)","source_pdf":"內部彙整 (ISO 21434 Clause 6.4.4)","part":"Clause 6","keywords":["tailoring","adaptation","justification"],"tags":["iso-21434","concept-note","project-dependent","tailoring"],"created":"2026-05-11"}}
+{"dg-publish":true,"permalink":"/03-project-dependent/03-tailoring/","title":"裁適 (Tailoring)","tags":["iso-21434","concept-note","project-dependent","tailoring"],"dg-note-properties":{"title":"裁適 (Tailoring)","source_pdf":"內部彙整 (ISO 21434 Clause 6.4.3)","part":"Clause 6","keywords":["tailoring","adaptation","justification"],"tags":["iso-21434","concept-note","project-dependent","tailoring"],"created":"2026-05-11"}}
 ---
 
 
@@ -95,7 +95,7 @@ HSM、加密庫等大量使用 OTS。
 tailoring_decision:
   id: TAIL-001
   activity: "Independent TARA review per design change"
-  baseline_standard: "ISO 21434 Clause 9.4.4 + Clause 15"
+  baseline_standard: "ISO 21434 Clause 9 (Concept) + Clause 15 (TARA)"
 
   proposed_tailoring: >
     Combine minor design changes (no impact on attack paths)
@@ -181,7 +181,7 @@ tailoring_decision:
 > 3. 每個 Tailoring 必須有**書面理由 (rationale)**
 > 4. Tailoring 紀錄寫入 **CS Plan**
 > 5. 不可以為了「節省成本/時間」而省略整個活動
-> 6. **OTS / Reuse** 不代表自動可裁適 TARA
+> 6. **OTS / Reuse** 不代表自動可裁適 TARA；但配合 reuse analysis（Clause 6.4.4），Delta TARA 是常見且可接受的裁適方式
 > 7. Tailoring 會在 **Cybersecurity Assessment** 中被檢視
 
 ---

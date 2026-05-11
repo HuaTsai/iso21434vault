@@ -5,10 +5,37 @@
 
 ## 是什麼？
 
-> [!quote] 定義
+> [!quote] 定義 (Clause 3.1.2)
 > Object that has value, or contributes to value.
+>
+> **Note**: An asset has one or more cybersecurity properties whose compromise can lead to one or more damage scenarios.
 
-「**有價值的東西**」——可能是資料、功能、通訊、金鑰等。
+> [!important] 雙重條件（Clause 15.3.2 要求）
+> 識別出來的 asset **必須**同時滿足：
+>
+> 1. **有價值**（資料、功能、通訊、硬體等）
+> 2. **具至少一個 cybersecurity property**（CIA + 其他屬性）
+> 3. **該屬性 compromise 可導致一個或多個 damage scenario**
+>
+> 鏈結圖：`Asset → Cybersecurity Property → Damage Scenario`
+>
+> 缺乏 cybersecurity property 或無法連到 damage scenario 的物件（如車內地毯）**不應**列入 asset register，否則 TARA 範圍會失控。
+
+---
+
+## Asset 到 Damage Scenario 的鏈結範例
+
+```
+Asset: ECU 韌體
+   └── Property: Integrity（完整性）
+         └── 被破壞 → Damage Scenario: 韌體被植入後門，攻擊者遠端控制煞車 → 失控撞擊
+   └── Property: Authenticity（真實性）
+         └── 被破壞 → Damage Scenario: 偽造韌體燒入 → 永久後門
+
+Asset: 車主 PII
+   └── Property: Confidentiality
+         └── 被破壞 → Damage Scenario: 個資洩漏，違反 GDPR → 法規罰款 + 信任損失
+```
 
 ---
 
@@ -72,7 +99,7 @@
 每個 asset 需評估哪些屬性需要被保護：
 
 ```
-資安屬性 (CIA + AAA)：
+資安屬性（CIA 三主屬性 + 補充屬性）：
 ├── Confidentiality （機密性）
 ├── Integrity       （完整性）
 ├── Availability    （可用性）
@@ -200,7 +227,7 @@ Asset Inventory：
 >
 > 1. Asset = **任何有價值的東西**（不限資料）
 > 2. 識別需含 **資料 + 功能 + 通訊 + 硬體**
-> 3. 每個 Asset 評估**CIA + AAA 屬性**
+> 3. 每個 Asset 評估**CIA + 其他屬性**（Authenticity / Authorization / Non-repudiation / Auditability）
 > 4. **不是每個 asset 都需保護所有屬性**
 > 5. 常見遺漏：時序、配置、日誌、RNG
 > 6. **SBOM 是輸入**之一，但不等同 Asset Inventory

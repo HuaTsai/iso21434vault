@@ -73,15 +73,21 @@
 
 ## Threat Scenario 結構
 
+> [!important] Clause 15.4.2 要求
+> ISO 21434 Threat Scenario 定義（Clause 3.1.32）：「**potential cause of compromise of cybersecurity properties of one or more assets in order to realize a damage scenario**」
+>
+> 關鍵：threat scenario **必須鏈結** damage scenario，否則只是「孤兒威脅」，無法評估 impact。
+
 ```
-Threat Scenario = Threat × Asset × Property
-                = (攻擊行為) × (被攻擊對象) × (被破壞屬性)
+Threat Scenario = Threat × Asset × Property → Damage Scenario
+                = (攻擊行為) × (被攻擊資產) × (被破壞屬性) → (對 road user / 系統的後果)
 
 範例：
   Threat：注入訊息
   Asset：CAN 煞車訊號
   Property：真實性 (Authenticity)
-  → "攻擊者注入偽造煞車訊息（破壞 CAN 煞車訊號的真實性）"
+  → Damage Scenario：高速行駛中誤煞車，導致追撞 / 失控
+  → 完整描述：「攻擊者注入偽造煞車訊息（破壞真實性），導致高速失控撞擊」
 ```
 
 ---
@@ -90,7 +96,7 @@ Threat Scenario = Threat × Asset × Property
 
 ### 方法 1：STRIDE
 
-| 縮寫                       | 中文     | 對應屬性        | 範例                   |
+| 縮寫（威脅類別）           | 中文     | 破壞的屬性      | 範例                   |
 | -------------------------- | -------- | --------------- | ---------------------- |
 | **S**poofing               | 假冒     | Authenticity    | 假冒 OEM 後端伺服器    |
 | **T**ampering              | 竄改     | Integrity       | 修改韌體               |
@@ -98,6 +104,9 @@ Threat Scenario = Threat × Asset × Property
 | **I**nformation Disclosure | 資訊洩漏 | Confidentiality | 萃取金鑰               |
 | **D**enial of Service      | 阻斷服務 | Availability    | 癱瘓 CAN               |
 | **E**levation of Privilege | 提權     | Authorization   | bypass Security Access |
+
+> [!note]
+> 左欄是**威脅行為**（攻擊類別），右欄是**被破壞的資安屬性**。例如 Repudiation 這個威脅破壞的是 Non-repudiation 屬性 — 兩者用詞相似但概念相反。
 
 > [!tip]
 > STRIDE 是業界**最常用**的方法，每個 asset/property 對照六類，可系統化發現威脅。

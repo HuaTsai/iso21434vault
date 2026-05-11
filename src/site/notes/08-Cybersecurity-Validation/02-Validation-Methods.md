@@ -24,7 +24,7 @@
 ## 1. Penetration Testing (Pen Test)
 
 > [!important]
-> ISO 21434 Clause 11 **規範要求**進行滲透測試。
+> ISO 21434 Clause 11 將 Pen Test 列為車輛層級驗證的**適當方法**之一；UN R155 type approval 實務上普遍將 Pen Test 視為必要證據。若 CS Case 中未含 Pen Test，需提出明確 justification（如已用其他等效方法）。
 
 ### Pen Test 流程（PTES / OWASP）
 
@@ -86,7 +86,7 @@ Internal Pen Test (整車內部)：
 ├── CAN buses
 ├── Ethernet
 ├── USB ports
-├── Charging interface (CCS, ChAdeMO)
+├── Charging interface (CCS, CHAdeMO)
 └── Service interfaces
 
 Hardware Pen Test：
@@ -267,8 +267,8 @@ Validation Report 接收者：
 
 > [!important] 高頻考點
 >
-> 1. **Pen Test 是 Clause 11 規範要求**（不是建議）
-> 2. Pen Test **可在元件級或車輛級**，但 Clause 11 要求**車輛級**
+> 1. **Pen Test 是 Clause 11 列為適當的 validation 方法之一**（R155 type approval 普遍期待；不執行需 justification）
+> 2. Pen Test **可在元件級或車輛級**，但 Clause 11 的 Validation **要求車輛級**
 > 3. Validation 方法多元：Pen Test + Fuzz + Red Team + 功能測試
 > 4. Validation 與 TARA 形成**閉環**
 > 5. Validation Report **敏感**，分發需控管

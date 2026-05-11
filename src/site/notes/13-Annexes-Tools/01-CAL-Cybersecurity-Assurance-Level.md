@@ -22,14 +22,18 @@
 
 ---
 
-## 四個等級
+## 四個等級（+ 可能不指派 CAL）
 
-| 等級      | 嚴謹度 | 適用                       |
-| --------- | ------ | -------------------------- |
-| **CAL 1** | 基本   | 低 Impact 或物理接觸限制   |
-| CAL 2     | 中等   | 中度保護                   |
-| CAL 3     | 高     | 主要安全相關功能           |
-| **CAL 4** | 最高   | 極嚴重 Impact + 遠端攻擊面 |
+| 等級      | 嚴謹度 | 適用                        |
+| --------- | ------ | --------------------------- |
+| (No CAL)  | —      | Impact 可忽略時不需指派 CAL |
+| **CAL 1** | 基本   | 低 Impact 或物理接觸限制    |
+| CAL 2     | 中等   | 中度保護                    |
+| CAL 3     | 高     | 主要安全相關功能            |
+| **CAL 4** | 最高   | 極嚴重 Impact + 遠端攻擊面  |
+
+> [!note]
+> 類似 ISO 26262 有 QM（無 ASIL 指派）的概念。低 impact 風險無需強制指派 CAL，可在組織政策中定義門檻。
 
 ---
 
@@ -39,6 +43,8 @@
 > **CAL = f(Impact, Attack Vector)**
 >
 > 注意：**不是** Attack Feasibility！是 Attack Vector（攻擊向量）。
+>
+> ⚠ Annex E 的 **Attack Vector** 維度（Network / Adjacent / Local / Physical）**獨立於** Annex G 的五大 Attack Feasibility 參數（Time / Expertise / Knowledge / Window / Equipment）。CAL 推導與 Attack Feasibility 評等是**兩個獨立流程**，不要混淆。
 
 ```
         Attack Vector →

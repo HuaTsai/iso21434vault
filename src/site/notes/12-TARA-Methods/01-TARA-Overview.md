@@ -34,21 +34,21 @@ TARA 結果
 ## TARA 八步驟（**必背**）
 
 ```
-1. Asset Identification           ← 資產識別
+1. Asset Identification           (Clause 15.3) ← 資產識別
    ↓
-2. Threat Scenario Identification ← 威脅情境識別
+2. Threat Scenario Identification (Clause 15.4) ← 威脅情境識別
    ↓
-3. Impact Rating                  ← 衝擊評等 (SFOP)
+3. Impact Rating                  (Clause 15.5) ← 衝擊評等 (SFOP)
    ↓
-4. Attack Path Analysis           ← 攻擊路徑分析
+4. Attack Path Analysis           (Clause 15.6) ← 攻擊路徑分析
    ↓
-5. Attack Feasibility Rating      ← 攻擊可行性評等
+5. Attack Feasibility Rating      (Clause 15.7) ← 攻擊可行性評等
    ↓
-6. Risk Value Determination       ← 風險值判定
+6. Risk Value Determination       (Clause 15.8) ← 風險值判定
    ↓
-7. Risk Treatment Decision        ← 風險處置決策
+7. Risk Treatment Decision        (Clause 15.9) ← 風險處置決策
    ↓
-8. (持續監控 + 更新)              ← 非顯式步驟，但實務必要
+8. (持續監控 + 更新)              ← 非顯式步驟，但實務必要（屬 Clause 8 Continual activities）
 ```
 
 > [!tip] 記憶法
@@ -258,6 +258,16 @@ tara_report:
 > 5. TARA 結果驅動 **CS Goals + Concept + Requirements**
 > 6. TARA 是 **Living Document**
 > 7. TARA 是 CS Case 的核心證據
+
+---
+
+## 官方範例：Annex H（headlamp system）
+
+> [!tip]
+> ISO 21434 **Annex H** (informative) 提供完整 TARA 應用範例：「Examples of application of TARA methods – **headlamp system**」。
+>
+> 涵蓋從 Item Definition、Asset Identification 一路到 Risk Treatment Decision 的具體寫法，是備考時練手最佳對照範本。
+> 配合 Annex F (Impact rating)、Annex G (Attack feasibility rating) 一起讀效果最佳。
 
 ---
 

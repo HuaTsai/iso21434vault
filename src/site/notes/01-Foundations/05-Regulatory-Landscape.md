@@ -34,13 +34,22 @@ UNECE (United Nations Economic Commission for Europe)
 ### 法規結構
 
 ```
-UN R155
-├── Annex 1：CSMS 認證要求
-├── Annex 2：車型認證要求 (Type Approval)
-├── Annex 3：認證標誌
-├── Annex 4：CSMS 認證流程
-└── Annex 5：威脅清單（69 種威脅 + 緩解措施）
+UN R155 (官方目次)
+├── Section 5：Approval（車型認證）
+├── Section 6：Certificate of Compliance for CSMS（CSMS 證書）
+├── Section 7：Specifications（核心要求）
+│     ├── 7.2 CSMS 要求（OEM 流程）
+│     └── 7.3 Vehicle type 要求（車型資安）
+├── Annex 1：Information document（型認申報資料）
+├── Annex 2：Communication（核發/拒發通知）
+├── Annex 3：Arrangement of approval mark（認證標誌格式）
+├── Annex 4：Model of Certificate of Compliance for CSMS（CSMS 證書範本）
+└── Annex 5：List of threats and corresponding mitigations（威脅與緩解 ⭐ 高頻考點）
 ```
+
+> [!note]
+> 核心**要求**寫在 **Section 6/7**，Annex 多為**範本/通訊格式/威脅清單**。
+> 常見誤解：把「CSMS 認證要求」當成 Annex 1，實際在 §7.2。
 
 ### 兩種認證
 
@@ -89,11 +98,20 @@ UN R155
 ### 法規結構
 
 ```
-UN R156
-├── Annex 1：SUMS 認證要求
-├── Annex 2：車型認證要求（更新管理）
-└── Annex 3：認證流程
+UN R156 (官方目次)
+├── Section 5：Approval（車型認證）
+├── Section 6：Certificate of Compliance for SUMS（SUMS 證書）
+├── Section 7：Specifications
+│     ├── 7.1 SUMS 要求（OEM 軟體更新管理流程）
+│     └── 7.2 Vehicle type 要求（軟體更新的型認）
+├── Annex 1：Information document
+├── Annex 2：Communication
+├── Annex 3：Arrangement of approval mark
+└── Annex 4：Model of Certificate of Compliance for SUMS
 ```
+
+> [!note]
+> 與 R155 一致：核心**要求**在 **Section 6/7**，Annex 為**範本/通訊格式**。
 
 ### 核心概念：**SUMS** (Software Update Management System)
 
@@ -151,17 +169,17 @@ ISO 24089     ←→ UN R156
 
 ## 其他相關法規/標準
 
-| 標準/法規                       | 領域               | 與 21434 關係                       |
-| ------------------------------- | ------------------ | ----------------------------------- |
-| ISO 26262                       | 功能安全           | 並列、共享 Item                     |
-| ISO 21448 (SOTIF)               | 預期功能安全       | 並列、有重疊（攻擊導致 SOTIF 議題） |
-| IEC 62443                       | 工控資安           | 21434 借鑑來源                      |
-| ISO/IEC 27001                   | 資訊安全管理       | 互補（IT vs OT）                    |
-| NIST SP 800-30                  | 風險評估           | 方法論來源                          |
-| Common Criteria (ISO/IEC 15408) | 評估準則           | 21434 Annex F 參考                  |
-| Auto-ISAC Best Practices        | 業界共識           | 21434 文化參考                      |
-| TISAX                           | 汽車供應鏈資訊安全 | 互補（企業 IT 面）                  |
-| UN R157 (ALKS)                  | 自駕系統           | 並列                                |
+| 標準/法規                       | 領域               | 與 21434 關係                         |
+| ------------------------------- | ------------------ | ------------------------------------- |
+| ISO 26262                       | 功能安全           | 並列、共享 Item                       |
+| ISO 21448 (SOTIF)               | 預期功能安全       | 並列、有重疊（攻擊導致 SOTIF 議題）   |
+| IEC 62443                       | 工控資安           | 21434 借鑑來源                        |
+| ISO/IEC 27001                   | 資訊安全管理       | 互補（IT vs OT）                      |
+| NIST SP 800-30                  | 風險評估           | 方法論來源                            |
+| Common Criteria (ISO/IEC 15408) | 評估準則           | 21434 Annex G (Attack Potential) 參考 |
+| Auto-ISAC Best Practices        | 業界共識           | 21434 文化參考                        |
+| TISAX                           | 汽車供應鏈資訊安全 | 互補（企業 IT 面）                    |
+| UN R157 (ALKS)                  | 自駕系統           | 並列                                  |
 
 ---
 

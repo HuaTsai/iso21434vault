@@ -199,7 +199,7 @@
 >
 > **Tier-1 整合責任**：
 >
-> ### 1. OoC 元件處理（Clause 6.4.6）
+> ### 1. OoC 元件處理（Clause 6.4.5）
 >
 > 對每個 OoC 元件：
 >
@@ -257,7 +257,7 @@
 > - Verification（**含跨 OoC 互動測試**）
 > - 元件級 Pen Test
 >
-> ### 6. CS Case（Clause 6.4.9）
+> ### 6. CS Case（Clause 6.4.7）
 >
 > - 結構：
 >   - Top Claim（整體 CS Goals 達成）

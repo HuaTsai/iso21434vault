@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/07-product-development/02-integration-verification/","title":"整合與驗證 (Verification)","tags":["iso-21434","concept-note","product-development","verification"],"dg-note-properties":{"title":"整合與驗證 (Verification)","source_pdf":"內部彙整 (ISO 21434 Clause 10.4.3)","part":"Clause 10","keywords":["integration","verification","testing","traceability"],"tags":["iso-21434","concept-note","product-development","verification"],"created":"2026-05-11"}}
+{"dg-publish":true,"permalink":"/07-product-development/02-integration-verification/","title":"整合與驗證 (Verification)","tags":["iso-21434","concept-note","product-development","verification"],"dg-note-properties":{"title":"整合與驗證 (Verification)","source_pdf":"內部彙整 (ISO 21434 Clause 10.4.2)","part":"Clause 10","keywords":["integration","verification","testing","traceability"],"tags":["iso-21434","concept-note","product-development","verification"],"created":"2026-05-11"}}
 ---
 
 
@@ -136,12 +136,12 @@ Integration Test 重點：
 
 ### 元件級 vs 車輛級
 
-| 比較   | 元件級 Pen Test        | 車輛級 Pen Test       |
-| ------ | ---------------------- | --------------------- |
-| 階段   | Clause 10 Verification | Clause 11 Validation  |
-| 範圍   | 單一 ECU/模組          | 整車（含多 ECU 互動） |
-| 視角   | 元件邊界內             | 攻擊者實際情境        |
-| 必要性 | 強烈建議               | **規範要求**          |
+| 比較   | 元件級 Pen Test        | 車輛級 Pen Test                                     |
+| ------ | ---------------------- | --------------------------------------------------- |
+| 階段   | Clause 10 Verification | Clause 11 Validation                                |
+| 範圍   | 單一 ECU/模組          | 整車（含多 ECU 互動）                               |
+| 視角   | 元件邊界內             | 攻擊者實際情境                                      |
+| 必要性 | 強烈建議               | Clause 11 列為適當方法；R155 type approval 普遍期待 |
 
 ### Pen Test 規劃
 
@@ -242,7 +242,7 @@ sast_integration:
 > 3. 兩者**不可混用**（VV 概念）
 > 4. 每個 CS Requirement **至少一個** Verification 方法
 > 5. **Traceability Matrix** 是必要 WP
-> 6. **滲透測試**可在元件級執行（但車輛級為規範要求）
+> 6. **滲透測試**可在元件級執行（車輛級 Pen Test 為 Clause 11 列為適當方法之一，R155 type approval 普遍期待）
 > 7. SAST + Fuzz + Pen Test 各有適用
 
 ---

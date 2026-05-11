@@ -91,7 +91,7 @@ Vehicle → Item → System → Component → HW/SW Unit
 
 ## 7. CSMS — Cybersecurity Management System
 
-> [!quote] 定義
+> [!quote] 定義（業界通用釋義，非 Clause 3 verbatim）
 > systematic risk-based approach defining organizational processes, responsibilities and governance to treat risk associated with cyber threats.
 
 **關鍵字**：
@@ -149,7 +149,7 @@ Vehicle → Item → System → Component → HW/SW Unit
 
 ## 11. CIA — Cybersecurity Interface Agreement
 
-> [!quote] 定義
+> [!quote] 定義（業界通用釋義，非 Clause 3 verbatim）
 > agreement between customer and supplier specifying the cybersecurity-related interactions, responsibilities and work products.
 
 **內容必包含**：
@@ -165,7 +165,7 @@ Vehicle → Item → System → Component → HW/SW Unit
 
 ## 12. TARA — Threat Analysis and Risk Assessment
 
-> [!quote] 定義
+> [!quote] 定義（業界通用釋義，非 Clause 3 verbatim）
 > systematic approach to identify and assess cybersecurity-related risks.
 
 **八步驟**：見 [[12-TARA-Methods/01-TARA-Overview\|12-TARA-Methods/01-TARA-Overview]]
@@ -277,20 +277,20 @@ Vehicle → Item → System → Component → HW/SW Unit
 
 ## 速記表
 
-| 縮寫    | 全名                                                                           | 中文               |
-| ------- | ------------------------------------------------------------------------------ | ------------------ |
-| CSMS    | Cybersecurity Management System                                                | 資安管理系統       |
-| CS      | Cybersecurity                                                                  | 資安               |
-| CIA     | Cybersecurity Interface Agreement                                              | 資安界面協議       |
-| CIA-AAA | Confidentiality/Integrity/Availability/Authenticity/Authorization/Auditability | 資安屬性           |
-| TARA    | Threat Analysis and Risk Assessment                                            | 威脅分析與風險評估 |
-| CAL     | Cybersecurity Assurance Level                                                  | 資安保證等級       |
-| SFOP    | Safety / Financial / Operational / Privacy                                     | 衝擊類別           |
-| OTS     | Off-The-Shelf                                                                  | 既有元件           |
-| RFQ     | Request For Quotation                                                          | 詢價單             |
-| WP      | Work Product                                                                   | 工作產物           |
-| EoS     | End of Cybersecurity Support                                                   | 終止資安支援       |
-| RASIC   | Responsible/Accountable/Supporting/Informed/Consulted                          | 角色矩陣           |
+| 縮寫       | 全名                                                                                             | 中文                                                                                                       |
+| ---------- | ------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------- |
+| CSMS       | Cybersecurity Management System                                                                  | 資安管理系統                                                                                               |
+| CS         | Cybersecurity                                                                                    | 資安                                                                                                       |
+| CIA        | Cybersecurity Interface Agreement                                                                | 資安界面協議                                                                                               |
+| CIA + 補充 | Confidentiality/Integrity/Availability + Authenticity/Authorization/Non-repudiation/Auditability | 資安屬性（業界俗稱 CIA + 補充屬性；不建議用 AAA 縮寫，AAA 傳統指 Authentication/Authorization/Accounting） |
+| TARA       | Threat Analysis and Risk Assessment                                                              | 威脅分析與風險評估                                                                                         |
+| CAL        | Cybersecurity Assurance Level                                                                    | 資安保證等級                                                                                               |
+| SFOP       | Safety / Financial / Operational / Privacy                                                       | 衝擊類別                                                                                                   |
+| OTS        | Off-The-Shelf                                                                                    | 既有元件                                                                                                   |
+| RFQ        | Request For Quotation                                                                            | 詢價單                                                                                                     |
+| WP         | Work Product                                                                                     | 工作產物                                                                                                   |
+| EoS        | End of Cybersecurity Support                                                                     | 終止資安支援                                                                                               |
+| RASIC      | Responsible/Accountable/Supporting/Informed/Consulted                                            | 角色矩陣                                                                                                   |
 
 ---
 

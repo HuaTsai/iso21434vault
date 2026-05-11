@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/03-project-dependent/04-reuse/","title":"重用與 OTS (Off-The-Shelf) 元件","tags":["iso-21434","concept-note","project-dependent","reuse","ots"],"dg-note-properties":{"title":"重用與 OTS (Off-The-Shelf) 元件","source_pdf":"內部彙整 (ISO 21434 Clause 6.4.5)","part":"Clause 6","keywords":["reuse","ots","off-the-shelf","components"],"tags":["iso-21434","concept-note","project-dependent","reuse","ots"],"created":"2026-05-11"}}
+{"dg-publish":true,"permalink":"/03-project-dependent/04-reuse/","title":"重用與 OTS (Off-The-Shelf) 元件","tags":["iso-21434","concept-note","project-dependent","reuse","ots"],"dg-note-properties":{"title":"重用與 OTS (Off-The-Shelf) 元件","source_pdf":"內部彙整 (ISO 21434 Clause 6.4.4)","part":"Clause 6","keywords":["reuse","ots","off-the-shelf","components"],"tags":["iso-21434","concept-note","project-dependent","reuse","ots"],"created":"2026-05-11"}}
 ---
 
 

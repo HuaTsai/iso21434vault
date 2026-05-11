@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/03-project-dependent/05-component-out-of-context/","title":"脈絡外元件 (Out-of-Context Component)","tags":["iso-21434","concept-note","project-dependent","out-of-context"],"dg-note-properties":{"title":"脈絡外元件 (Out-of-Context Component)","source_pdf":"內部彙整 (ISO 21434 Clause 6.4.6)","part":"Clause 6","keywords":["out-of-context","ooc","platform","assumed-context"],"tags":["iso-21434","concept-note","project-dependent","out-of-context"],"created":"2026-05-11"}}
+{"dg-publish":true,"permalink":"/03-project-dependent/05-component-out-of-context/","title":"脈絡外元件 (Out-of-Context Component)","tags":["iso-21434","concept-note","project-dependent","out-of-context"],"dg-note-properties":{"title":"脈絡外元件 (Out-of-Context Component)","source_pdf":"內部彙整 (ISO 21434 Clause 6.4.5)","part":"Clause 6","keywords":["out-of-context","ooc","platform","assumed-context"],"tags":["iso-21434","concept-note","project-dependent","out-of-context"],"created":"2026-05-11"}}
 ---
 
 

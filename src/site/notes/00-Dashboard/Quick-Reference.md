@@ -3,7 +3,7 @@
 ---
 
 
-> 一頁速覽全標準。每個小節結尾以 `→ [[筆記連結]]` 指向深度筆記。
+> 一頁速覽全標準。每個小節結尾以 `→ [[...]]` 指向深度筆記。
 
 ---
 
@@ -71,7 +71,7 @@
 | **Elapsed Time** 流逝時間          | < 1 day (0)   | > 6 months (19)            |
 | **Specialist Expertise** 專家能力  | Layman (0)    | Multiple Experts (8)       |
 | **Knowledge of Item** 標的知識     | Public (0)    | Strictly confidential (11) |
-| **Window of Opportunity** 機會窗口 | Unlimited (0) | None (∞ ≈ infeasible)      |
+| **Window of Opportunity** 機會窗口 | Unlimited (0) | Difficult (10)             |
 | **Equipment** 設備                 | Standard (0)  | Multiple bespoke (9)       |
 
 **總分對應**（**易混淆考點**：分數越**高** = 可行性越**低**）：
@@ -166,19 +166,19 @@ Cybersecurity Concept (功能性 + 約束)
 
 ---
 
-## 十、與 UN R155 / R156 / ISO 26262 對照
+## 十、與 UN R155 / R156 / ISO 24089 / ISO 26262 對照
 
-| 對應主題   | ISO 21434       | UN R155            | ISO 26262     |
-| ---------- | --------------- | ------------------ | ------------- |
-| 管理系統   | Clause 5 (CSMS) | §7.2 CSMS          | Part 2        |
-| 風險評估   | Clause 15 TARA  | Annex 5 (威脅清單) | Part 3 HARA   |
-| 概念設計   | Clause 9        | —                  | Part 3        |
-| 產品開發   | Clause 10       | §7.3               | Part 4–6      |
-| 驗證       | Clause 11       | §7.3               | Part 4        |
-| 生產       | Clause 12       | —                  | Part 7        |
-| 營運       | Clause 13       | §7.4               | Part 7        |
-| EoS / 除役 | Clause 14       | —                  | —             |
-| 軟體更新   | —               | —                  | UN **R156** ✔ |
+| 對應主題   | ISO 21434       | UN R155            | UN R156 / ISO 24089  | ISO 26262   |
+| ---------- | --------------- | ------------------ | -------------------- | ----------- |
+| 管理系統   | Clause 5 (CSMS) | §7.2 CSMS          | —                    | Part 2      |
+| 風險評估   | Clause 15 TARA  | Annex 5 (威脅清單) | —                    | Part 3 HARA |
+| 概念設計   | Clause 9        | —                  | —                    | Part 3      |
+| 產品開發   | Clause 10       | §7.3               | —                    | Part 4–6    |
+| 驗證       | Clause 11       | §7.3               | —                    | Part 4      |
+| 生產       | Clause 12       | —                  | —                    | Part 7      |
+| 營運       | Clause 13       | §7.4               | —                    | Part 7      |
+| EoS / 除役 | Clause 14       | —                  | —                    | —           |
+| 軟體更新   | —（不在範圍）   | —                  | **R156 + ISO 24089** | —           |
 
 → [[01-Foundations/05-Regulatory-Landscape\|01-Foundations/05-Regulatory-Landscape]]、[[13-Annexes-Tools/02-Mapping-to-UN-R155\|13-Annexes-Tools/02-Mapping-to-UN-R155]]
 

@@ -19,8 +19,10 @@
 │ Product Dev   │                              │ CS Validation  │
 │ (Clause 10)   │                              │ (Clause 11)    │
 │ • Design      │                              │ • Vehicle-level│
-│ • Architecture│ ────── Verification ────→    │   Pen Test     │
-│ • Integration │                              │ • Goal achieved│
+│ • Architecture│ ────── Verification ────→    │   validation   │
+│ • Integration │                              │   (含 Pen Test │
+│               │                              │   等方法)       │
+│               │                              │ • Goal achieved│
 └───────┬───────┘                              └────────┬───────┘
         ↓                                               ↑
    (Software/Hardware Unit Implementation & Test)
@@ -96,11 +98,11 @@
 
 若有供應商參與：
 
-| 活動 | WP |
-|---|---|
-| 供應商能力評估 | Supplier Capability Assessment |
-| RFQ 含 CS 條款 | RFQ Document |
-| 簽訂 CIA | **Cybersecurity Interface Agreement** ⭐ |
+| 活動           | WP                                       |
+| -------------- | ---------------------------------------- |
+| 供應商能力評估 | Supplier Capability Assessment           |
+| RFQ 含 CS 條款 | RFQ Document                             |
+| 簽訂 CIA       | **Cybersecurity Interface Agreement** ⭐ |
 
 → [[04-Distributed-CS-Activities/02-Cybersecurity-Interface-Agreement\|04-Distributed-CS-Activities/02-Cybersecurity-Interface-Agreement]]
 

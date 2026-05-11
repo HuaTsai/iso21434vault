@@ -112,8 +112,10 @@ C. 完全忽略
 D. 立即移除整個元件
 
 > [!answer]- 解答
-> **B**。Share/Transfer 透過 CIA 機制要求供應商履行修補責任。客戶端仍需驗證修補有效性。
-> 自己修補（A）可能不適用（供應商擁有源碼）；忽略（C）違反規範；移除元件（D）可能不可行。
+> **B**。透過 CIA 機制要求供應商履行修補責任，客戶端仍需驗證修補有效性。
+>
+> **概念釐清**：嚴格依 ISO 21434 §15.9 / ISO 31000 定義，"Sharing/Transferring" 指**將風險分擔給其他方**（如契約轉移、保險）。「請供應商修補」**技術上更接近 Reduce**（透過供應商行動降低風險），責任分攤則由 CIA 處理。實務中常以 "Share via supplier remediation per CIA" 表述—— Share 在此指**責任分攤**而非單純委外修補。
+> 選項 A（自己修補可能不適用）、C（違反規範）、D（不可行）都明顯不合理。
 > 參考 [[05-Continual-Cybersecurity/04-Vulnerability-Management\|05-Continual-Cybersecurity/04-Vulnerability-Management]]
 
 ---
@@ -168,7 +170,7 @@ D. 立即移除整個元件
 
 ## Q9. (recall)
 
-業界 CVD（Coordinated Vulnerability Disclosure）流程的標準 embargo 期（預設）是多久？
+業界 CVD（Coordinated Vulnerability Disclosure）流程中，**最常見**的 embargo 期約為多久？
 
 A. 7 天
 B. 30 天
@@ -176,8 +178,15 @@ C. 90 天
 D. 1 年
 
 > [!answer]- 解答
-> **C. 90 天**。
-> 業界（Google Project Zero、CERT 等）共識的預設揭露窗口。視情況可協商延長或提早。
+> **C. 90 天**（業界常見值之一）。
+>
+> 注意：**ISO 21434 與 ISO/IEC 29147 都未規範特定天數**。不同協調者偏好不同：
+>
+> - CERT/CC：通常 45 天
+> - Google Project Zero：90 天 + 14 天 grace
+> - MITRE / 多數 OEM：30-90 天視個案協商
+>
+> 證照題若問「ISO 標準規範的 embargo 期」，正解應為「**ISO 不規範特定天數**」而非具體數字。
 > 參考 [[05-Continual-Cybersecurity/04-Vulnerability-Management\|05-Continual-Cybersecurity/04-Vulnerability-Management]]
 
 ---

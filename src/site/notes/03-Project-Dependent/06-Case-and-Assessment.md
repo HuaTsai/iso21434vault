@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/03-project-dependent/06-case-and-assessment/","title":"資安案例 (Cybersecurity Case) 與評估","tags":["iso-21434","concept-note","project-dependent","case","assessment"],"dg-note-properties":{"title":"資安案例 (Cybersecurity Case) 與評估","source_pdf":"內部彙整 (ISO 21434 Clause 6.4.9 + 6.4.10)","part":"Clause 6","keywords":["cs-case","cs-assessment","evidence","argument"],"tags":["iso-21434","concept-note","project-dependent","case","assessment"],"created":"2026-05-11"}}
+{"dg-publish":true,"permalink":"/03-project-dependent/06-case-and-assessment/","title":"資安案例 (Cybersecurity Case) 與評估","tags":["iso-21434","concept-note","project-dependent","case","assessment"],"dg-note-properties":{"title":"資安案例 (Cybersecurity Case) 與評估","source_pdf":"內部彙整 (ISO 21434 Clause 6.4.7 + 6.4.8)","part":"Clause 6","keywords":["cs-case","cs-assessment","evidence","argument"],"tags":["iso-21434","concept-note","project-dependent","case","assessment"],"created":"2026-05-11"}}
 ---
 
 
@@ -117,7 +117,7 @@ cs_case:
 
 ## Cybersecurity Assessment
 
-> [!quote] 定義 (Clause 6.4.10)
+> [!quote] 定義 (Clause 6.4.8)
 > independent judgement of the cybersecurity engineering performed for the item or component.
 
 ### 評估目的

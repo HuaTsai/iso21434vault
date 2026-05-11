@@ -31,9 +31,10 @@
    • 每個 CS Goal 至少一個 Validation 活動
    • 直接證明 Goal 達成
 
-4. 含滲透測試 (Penetration Testing)
-   • Clause 11 規範要求
-   • 不可省略
+4. 通常含滲透測試 (Penetration Testing)
+   • Clause 11 列為「適當方法」之一
+   • R155 type approval 實務上普遍期待
+   • 若不執行需在 CS Case 中提出明確 justification
 ```
 
 ---
@@ -146,7 +147,7 @@ cs_validation_plan:
 
 | 比較   | Verification         | Validation                 |
 | ------ | -------------------- | -------------------------- |
-| Clause | 10.4.3               | **11**                     |
+| Clause | 10.4.2               | **11**                     |
 | 層級   | 元件/系統            | **車輛**                   |
 | 視角   | 需求對應             | 攻擊者                     |
 | 範圍   | In-bound（需求清單） | Out-of-bound（攻擊面完整） |
@@ -225,7 +226,7 @@ Validation Pass
    ↓
 Cybersecurity Assessment
    ↓
-Release for Post-Development（Clause 6.4.11）
+Release for Post-Development（Clause 6.4.9）
    ↓
 Production (12) + Operations (13)
 ```
@@ -241,7 +242,7 @@ Validation **失敗 → 不可 Release**。
 > [!important] 高頻考點
 >
 > 1. Validation 是**車輛層級**
-> 2. Validation **必須包含滲透測試**
+> 2. Validation **通常需包含滲透測試**（Clause 11 列為適當方法，R155 type approval 普遍期待；不執行需 justification）
 > 3. Validation **獨立性**要求（不可由開發團隊）
 > 4. Validation 對應 **CS Goals**（不是 Requirements）
 > 5. Validation 失敗 → 不可 Release

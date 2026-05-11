@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/02-organizational-management/04-tool-management/","title":"工具管理","tags":["iso-21434","concept-note","csms","tools"],"dg-note-properties":{"title":"工具管理","source_pdf":"內部彙整 (ISO 21434 Clause 5.4.6)","part":"Clause 5","keywords":["tool-management","tool-evaluation","tcl","qualification"],"tags":["iso-21434","concept-note","csms","tools"],"created":"2026-05-11"}}
+{"dg-publish":true,"permalink":"/02-organizational-management/04-tool-management/","title":"工具管理","tags":["iso-21434","concept-note","csms","tools"],"dg-note-properties":{"title":"工具管理","source_pdf":"內部彙整 (ISO 21434 Clause 5.4.5)","part":"Clause 5","keywords":["tool-management","tool-evaluation","tcl","qualification"],"tags":["iso-21434","concept-note","csms","tools"],"created":"2026-05-11"}}
 ---
 
 

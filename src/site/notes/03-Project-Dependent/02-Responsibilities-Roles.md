@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/03-project-dependent/02-responsibilities-roles/","title":"角色與責任分配 (RASIC)","tags":["iso-21434","concept-note","project-dependent","roles"],"dg-note-properties":{"title":"角色與責任分配 (RASIC)","source_pdf":"內部彙整 (ISO 21434 Clause 6.4.3)","part":"Clause 6","keywords":["rasic","raci","roles","responsibilities"],"tags":["iso-21434","concept-note","project-dependent","roles"],"created":"2026-05-11"}}
+{"dg-publish":true,"permalink":"/03-project-dependent/02-responsibilities-roles/","title":"角色與責任分配 (RASIC)","tags":["iso-21434","concept-note","project-dependent","roles"],"dg-note-properties":{"title":"角色與責任分配 (RASIC)","source_pdf":"內部彙整 (ISO 21434 Clause 6.4.1)","part":"Clause 6","keywords":["rasic","raci","roles","responsibilities"],"tags":["iso-21434","concept-note","project-dependent","roles"],"created":"2026-05-11"}}
 ---
 
 

@@ -60,11 +60,11 @@ D. Very Low
 > 對應表：
 >
 > | Total Score | Attack Feasibility |
-> |---|---|
-> | 0–13 | High |
-> | 14–19 | Medium |
-> | 20–24 | Low |
-> | ≥ 25 | Very Low |
+> | ----------- | ------------------ |
+> | 0–13        | High               |
+> | 14–19       | Medium             |
+> | 20–24       | Low                |
+> | ≥ 25        | Very Low           |
 >
 > **分數越高 = 攻擊越困難 = Feasibility 越低**。
 > 30 分屬於 ≥ 25 區間，所以 Very Low。
@@ -98,18 +98,18 @@ ISO 21434 Annex G 提供的三種 Attack Feasibility 評估方法為何？
 >
 > ```yaml
 > impact_rating:
->   safety: Severe # 高速失控可致命
->   financial: Major # 召回 + 賠償 + 品牌
->   operational: Severe # 車輛無法安全駕駛
+>   safety: Severe # 高速失控可致命（對 road user 的安全衝擊）
+>   financial: Major # 召回 + 賠償 + 品牌損失
+>   operational: Major # 煞車控制功能失效（從功能可用性視角，不重複算「致命」）
 >   privacy: Negligible # 不涉及 PII
 >
->   overall: Severe # max
+>   overall: Severe # 取最高
 > ```
 >
 > 注意：
 >
-> - **Safety 為 Severe** 是主要驅動
-> - **Operational 也為 Severe**（功能完全失效）
+> - **Safety 為 Severe** 是主要驅動（從對 road user 安全衝擊評估）
+> - **Operational** 從**功能可用性視角**評估（煞車控制不可用），rationale 與 Safety 分開——**避免雙重計算同一後果**
 > - Privacy 可被忽略
 > - Financial 嚴重但不到 Severe（除非全車隊）
 >

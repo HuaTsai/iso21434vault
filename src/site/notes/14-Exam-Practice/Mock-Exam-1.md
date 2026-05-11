@@ -234,7 +234,7 @@ ISO 21434 Clause 8 的「持續性活動」涵蓋什麼？這些活動的生命�
 
 ### Q17
 
-請說明 Release for Post-Development（Clause 6.4.11）的必要條件。
+請說明 Release for Post-Development（Clause 6.4.9）的必要條件。
 
 > [!answer]-
 >

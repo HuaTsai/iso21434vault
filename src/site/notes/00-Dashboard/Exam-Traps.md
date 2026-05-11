@@ -12,12 +12,12 @@
 
 > [!warning]- 三者差別是什麼？
 >
-> - **Cybersecurity Goal**：來自 **威脅情境 + 風險評估**，是「不希望發生的事被防止」的高層級陳述。屬性導向（CIA-AAA: Confidentiality/Integrity/Availability/Authenticity/...）。
+> - **Cybersecurity Goal**：來自 **威脅情境 + 風險評估**，是「不希望發生的事被防止」的高層級陳述。屬性導向（CIA + 補充屬性: Confidentiality/Integrity/Availability/Authenticity/Authorization/Non-repudiation/...）。
 >   - 範例：「TCU 的韌體完整性應被保護免於未經授權之修改。」
 > - **Cybersecurity Claim**：對某風險的**處置決策**之主張（例如：將某風險視為 out-of-scope 並轉移至營運者）。
 >   - 範例：「車主將其 OBD-II 接口的物理保護視為使用者責任。」
 > - **Cybersecurity Requirement**：可驗證的技術/流程要求，是 **Goal 的細化**。
->   - 範例：「韌體應使用 RSA-4096 + SHA-256 簽章驗證。」
+>   - 範例：「韌體應使用 ECDSA-P256 + SHA-256 簽章驗證。」（汽車 ECU 主流；RSA 多用於後端伺服器）
 >
 > → [[06-Concept-Phase/02-Cybersecurity-Goals\|06-Concept-Phase/02-Cybersecurity-Goals]]、[[06-Concept-Phase/03-Cybersecurity-Claims\|06-Concept-Phase/03-Cybersecurity-Claims]]
 

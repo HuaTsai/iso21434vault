@@ -10,13 +10,13 @@ Risk = f(Impact, Attack Feasibility)
 ```
 
 > [!important]
-> 注意：ISO 21434 採用 **Impact × Feasibility**，不是 ISO 26262 的 **S × E × C**。
+> 注意：ISO 21434 採用 **Risk = f(Impact, Feasibility)** 兩維度推導（**非乘法**，標準未指定算式），不是 ISO 26262 的 **S × E × C**。
 
 ---
 
 ## 標準風險矩陣
 
-ISO 21434 Annex F 建議的矩陣：
+ISO 21434 Clause 15.8 (Risk value determination) 規範以 Impact 與 Feasibility 兩維度推導風險值（標準未指定具體算式）。下列為業界常用的 4×4 矩陣（**標準本體未強制特定矩陣**；Annex F 是 Impact 評等指引，Annex G 是 Feasibility 評等指引）：
 
 ```
                       Attack Feasibility →
@@ -112,13 +112,13 @@ Required Action: 評估是否處置
 ## 風險矩陣的可變化性
 
 > [!warning]
-> ISO 21434 Annex F 是**informative**（資訊性）。
-> 組織可**自訂矩陣**，但需在 CSMS 中**一致使用**。
+> ISO 21434 **未強制**特定風險矩陣。Annex F (Impact rating) 與 Annex G (Attack feasibility rating) 皆為 **informative**（資訊性）。
+> 組織可**自訂矩陣**，但需在 CSMS 中**一致使用**並文件化。
 
 常見變體：
 
 - **5 × 5**（細粒度）
-- **4 × 4**（如 Annex F）
+- **4 × 4**（最常見）
 - **3 × 3**（粗粒度，小組織）
 - **加權**（不同 Impact 面向有不同權重）
 
@@ -214,7 +214,7 @@ risk_record:
 > 1. 公式：**Risk = f(Impact, Feasibility)**
 > 2. 矩陣最高值 = **Severe + High Feasibility = 5**
 > 3. 風險值 5 = **Very High**，必須處置
-> 4. **Annex F 矩陣是 informative**，可自訂
+> 4. **標準未強制特定矩陣**；Annex F (Impact) 與 Annex G (Feasibility) 為 informative
 > 5. **殘餘風險**需被接受並文件化
 > 6. **不是** S × E × C（那是 ISO 26262 HARA）
 > 7. 跨組織的矩陣可能不同——需在 CIA 中對齊

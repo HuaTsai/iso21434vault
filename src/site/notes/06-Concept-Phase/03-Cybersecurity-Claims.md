@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/06-concept-phase/03-cybersecurity-claims/","title":"資安主張 (Cybersecurity Claims)","tags":["iso-21434","concept-note","concept-phase","cs-claims"],"dg-note-properties":{"title":"資安主張 (Cybersecurity Claims)","source_pdf":"內部彙整 (ISO 21434 Clause 9.5)","part":"Clause 9","keywords":["cs-claims","assumptions","out-of-scope","transfer"],"tags":["iso-21434","concept-note","concept-phase","cs-claims"],"created":"2026-05-11"}}
+{"dg-publish":true,"permalink":"/06-concept-phase/03-cybersecurity-claims/","title":"資安主張 (Cybersecurity Claims)","tags":["iso-21434","concept-note","concept-phase","cs-claims"],"dg-note-properties":{"title":"資安主張 (Cybersecurity Claims)","source_pdf":"內部彙整 (ISO 21434 Clause 9.4 — 與 Cybersecurity Goals 同節)","part":"Clause 9","keywords":["cs-claims","assumptions","out-of-scope","transfer"],"tags":["iso-21434","concept-note","concept-phase","cs-claims"],"created":"2026-05-11"}}
 ---
 
 

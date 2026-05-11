@@ -27,17 +27,16 @@ D. 車輛層級 (Vehicle-level)
 
 ## Q2. (recall)
 
-ISO 21434 Clause 11 是否**規範**滲透測試？
+ISO 21434 Clause 11 對滲透測試的定位最接近下列何者？
 
-A. 否，只是建議
-B. 是，規範要求
-C. 只有 ASIL-D 系統才需要
-D. 只有 CAL-4 系統才需要
+A. 完全不提及
+B. 列為適當的車輛層級驗證方法之一（R155 type approval 實務普遍期待）
+C. 僅 ASIL-D 系統才需要
+D. 僅 CAL-4 系統才需要
 
 > [!answer]- 解答
 > **B**。
-> Clause 11 明確要求 Validation 包含 Pen Test。
-> 不依 ASIL/CAL 等級豁免。
+> Clause 11 將 Pen Test 列為**適當方法**（不是唯一強制方法）；R155 type approval 實務上普遍期待 Pen Test 作為證據，若不執行需明確 justification。不依 ASIL/CAL 等級豁免。
 > 參考 [[00-Dashboard/Exam-Traps#Trap 11\|00-Dashboard/Exam-Traps#Trap 11]]
 
 ---
@@ -117,7 +116,7 @@ D. 以上都不可省略
 >
 > **共同點**：兩者都需要授權 + Rules of Engagement + Reporting。
 >
-> 在 ISO 21434 中，**Pen Test 是規範要求**；Red Team 是**建議的高階方法**。
+> 在 ISO 21434 中，**Pen Test 是 Clause 11 列為適當的 validation 方法之一**（R155 type approval 普遍期待）；Red Team 是業界建議的高階方法（非 ISO 21434 明文要求）。
 >
 > 參考 [[08-Cybersecurity-Validation/02-Validation-Methods\|08-Cybersecurity-Validation/02-Validation-Methods]]
 

@@ -24,6 +24,22 @@
 > [!important]
 > 同一個 Threat Scenario 可能有**多條 Attack Path**。
 > Attack Feasibility 採用**最容易**的那條來評估（攻擊者最壞情境）。
+>
+> **「最容易」= feasibility 等級最高（High > Medium > Low > Very Low）= Attack Potential 分數最低**（分數越高代表攻擊代價越高）。
+
+---
+
+## 方法論：Top-down vs Bottom-up
+
+ISO 21434 §15.6.2 列出兩種互補的 Attack Path 分析方法：
+
+| 方法                  | 起點                                      | 走向                                 | 典型工具                        | 強項                     |
+| --------------------- | ----------------------------------------- | ------------------------------------ | ------------------------------- | ------------------------ |
+| **Top-down**（演繹）  | 從 Threat Scenario 出發                   | 反推可能的攻擊步驟                   | Attack Tree、STRIDE-per-element | 系統化、不漏掉重要威脅   |
+| **Bottom-up**（歸納） | 從已知 vulnerability / attack vector 出發 | 上溯能否組成路徑到某 Threat Scenario | CVE 對照、Penetration Testing   | 反映真實世界已知攻擊技術 |
+
+> [!tip]
+> ISO 21434 建議**混用兩種方法**。Top-down 確保覆蓋率，Bottom-up 確保現實性。
 
 ---
 

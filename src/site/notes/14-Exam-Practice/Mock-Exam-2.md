@@ -21,20 +21,20 @@
 
 ### Q2
 
-請將下列 STRIDE 對應到正確的資安屬性：
+請將下列 STRIDE **威脅類別**對應到其**破壞的資安屬性**：
 
-| STRIDE                 | 對應屬性 |
-| ---------------------- | -------- |
-| Spoofing               | ?        |
-| Tampering              | ?        |
-| Repudiation            | ?        |
-| Information Disclosure | ?        |
-| Denial of Service      | ?        |
-| Elevation of Privilege | ?        |
+| STRIDE（威脅）         | 破壞的屬性 |
+| ---------------------- | ---------- |
+| Spoofing               | ?          |
+| Tampering              | ?          |
+| Repudiation            | ?          |
+| Information Disclosure | ?          |
+| Denial of Service      | ?          |
+| Elevation of Privilege | ?          |
 
 > [!answer]-
 >
-> | STRIDE                 | 對應屬性            |
+> | STRIDE（威脅）         | 破壞的屬性          |
 > | ---------------------- | ------------------- |
 > | Spoofing               | **Authenticity**    |
 > | Tampering              | **Integrity**       |
@@ -42,6 +42,8 @@
 > | Information Disclosure | **Confidentiality** |
 > | Denial of Service      | **Availability**    |
 > | Elevation of Privilege | **Authorization**   |
+>
+> 注意：Repudiation（威脅）與 Non-repudiation（屬性）用詞相似但概念相反——前者是攻擊行為（否認），後者是被破壞的保護屬性。
 
 ---
 
@@ -169,7 +171,7 @@ A. 3 B. 4 C. 5 D. 6
 >    - 雙方定期 review TARA 對接
 >    - 發現空白 → 協商補位
 > 5. **最終仲裁**：
->    - 若仍有歧義，OEM（車型認證持有者）有最終裁決權
+>    - **業界實務上** OEM（作為 type approval holder）通常有商業優勢；但 **ISO 21434 不規範誰有最終裁決權**，應在 CIA 的爭議解決條款中事先約定
 >    - 但需在 CIA 中事先明定爭議解決機制
 > 6. **保守原則**：
 >    - CIA 不明確時，**雙方都應假設自己負責**
@@ -391,7 +393,7 @@ A. 3 B. 4 C. 5 D. 6
 > **絕對不可**：
 >
 > - 為趕進度直接 Retain 並 Release
-> - 違反 Clause 6.4.11 (Release for Post-Development)
+> - 違反 Clause 6.4.9 (Release for Post-Development)
 > - 違反 Clause 15 Risk Treatment 原則
 >
 > **可能合規方案**：
@@ -456,7 +458,7 @@ A. 3 B. 4 C. 5 D. 6
 
 ## Related Concepts
 
-- [[12-TARA-Methods/\|12-TARA-Methods/]]
+- [[12-TARA-Methods/01-TARA-Overview\|12-TARA-Methods/01-TARA-Overview]]
 - [[00-Dashboard/Exam-Traps\|00-Dashboard/Exam-Traps]]
 - [[14-Exam-Practice/Mock-Exam-1\|14-Exam-Practice/Mock-Exam-1]]
 - [[14-Exam-Practice/Mock-Exam-3\|14-Exam-Practice/Mock-Exam-3]]

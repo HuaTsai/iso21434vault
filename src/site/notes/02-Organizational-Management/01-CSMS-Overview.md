@@ -5,7 +5,7 @@
 
 ## 是什麼？
 
-> [!quote] 定義
+> [!quote] 定義（業界通用釋義，非 Clause 3 verbatim）
 > systematic risk-based approach defining organizational processes, responsibilities and governance to treat risk associated with cyber threats and protect from cyberattacks.
 
 **關鍵字**：
@@ -34,28 +34,33 @@ ISO 21434 Clause 5 是被廣泛接受的實作方式。
 ## CSMS 的七大支柱
 
 ```
-┌─────────────────────────────────────────┐
-│ 1. Cybersecurity Governance & Policy    │
-│    （政策、章程、組織架構）                │
-├─────────────────────────────────────────┤
-│ 2. Cybersecurity Culture                │
-│    （資安意識、培訓）                     │
-├─────────────────────────────────────────┤
-│ 3. Competence Management                │
-│    （能力評估、培訓計畫）                  │
-├─────────────────────────────────────────┤
-│ 4. Continual Improvement                │
-│    （Lessons Learned、KPI、稽核）         │
-├─────────────────────────────────────────┤
-│ 5. Information Sharing                  │
-│    （內部/外部資訊共享）                   │
-├─────────────────────────────────────────┤
-│ 6. Management Systems Integration       │
-│    （與 ISMS、QMS 整合）                  │
-├─────────────────────────────────────────┤
-│ 7. Tool Management                      │
-│    （工具評估、變更控制）                  │
-└─────────────────────────────────────────┘
+官方 Clause 5.4.1 – 5.4.7 對應的七大支柱：
+
+┌─────────────────────────────────────────────────┐
+│ 5.4.1 Cybersecurity Governance                  │
+│       （政策、章程、組織架構、roles & accountabilities） │
+├─────────────────────────────────────────────────┤
+│ 5.4.2 Cybersecurity Culture                     │
+│       （資安意識、培訓、competence management）   │
+├─────────────────────────────────────────────────┤
+│ 5.4.3 Information Sharing                       │
+│       （內部 / 外部資訊共享）                     │
+├─────────────────────────────────────────────────┤
+│ 5.4.4 Management Systems                        │
+│       （與 ISMS、QMS、組織管理系統整合）           │
+├─────────────────────────────────────────────────┤
+│ 5.4.5 Tool Management                           │
+│       （工具評估、變更控制、TCL 概念）             │
+├─────────────────────────────────────────────────┤
+│ 5.4.6 Information Security Management           │
+│       （組織的資訊安全管理）                       │
+├─────────────────────────────────────────────────┤
+│ 5.4.7 Organizational Cybersecurity Audit        │
+│       （獨立稽核、Lessons Learned、KPI）          │
+└─────────────────────────────────────────────────┘
+
+橫貫所有支柱的機制：
+• Continual Improvement (PDCA) — 不是單一支柱，而是貫穿所有 5.4.x 的循環
 ```
 
 每一支柱都需有具體的**政策文件 + 流程 + 紀錄**。

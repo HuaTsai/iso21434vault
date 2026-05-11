@@ -76,7 +76,7 @@ D. Cybersecurity Plan
 
 > [!answer]- 解答
 > **C. ASIL 等級分配文件**。
-> ASIL 屬於 **ISO 26262**（功能安全），不在 ISO 21434 範圍。Cybersecurity 的對應等級是 **CAL**。
+> ASIL 是 **ISO 26262**（功能安全）的 WP，**ISO 21434 不要求供應商產出此文件**（但兩者在 co-engineering 中可能共享輸入，如 Item Definition）。Cybersecurity 的對應等級是 **CAL**（informative）。
 >
 > 參考 [[01-Foundations/03-Cybersecurity-vs-Safety\|01-Foundations/03-Cybersecurity-vs-Safety]]、[[00-Dashboard/Exam-Traps#Trap 2\|00-Dashboard/Exam-Traps#Trap 2]]
 

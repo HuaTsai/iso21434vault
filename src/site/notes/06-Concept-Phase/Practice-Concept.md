@@ -14,7 +14,7 @@ ISO 21434 的 Cybersecurity Concept Phase 在哪個 Clause？
 
 > [!answer]- 解答
 > **Clause 9**。
-> 含：Item Definition (9.3)、Cybersecurity Goals (9.4)、Cybersecurity Claims (9.5)、Cybersecurity Concept (9.5)。
+> 含：Item Definition (9.3)、Cybersecurity Goals (9.4)、Cybersecurity Claims (9.4，與 Goals 同節)、Cybersecurity Concept (9.5)。
 
 ---
 
@@ -100,7 +100,7 @@ D. 至少 3 個
 
 > [!answer]- 解答
 > **B**。
-> 「至少 1 個」是規範要求——CS Goal 必須有 TARA 依據，否則是空談。一個 Goal 可對應多個 Threat Scenario，一個 Threat Scenario 也可對應多個 Goal。
+> ISO 21434 Clause 9.4.2 規範 CS Goal 應與 **one or more threat scenarios** 相關聯（即至少一個）——CS Goal 必須有 TARA 依據，否則是空談。一個 Goal 可對應多個 Threat Scenario，一個 Threat Scenario 也可對應多個 Goal。
 > 參考 [[06-Concept-Phase/02-Cybersecurity-Goals\|06-Concept-Phase/02-Cybersecurity-Goals]]
 
 ---
@@ -192,7 +192,7 @@ CS Concept 是哪個 Clause 的 WP？
 
 > [!answer]- 解答
 > **Clause 9 (Concept Phase)**。
-> 具體在 9.5（與 CS Claims 同節）。
+> 具體在 9.5（CS Concept），承接 9.4 的 CS Goals 與 CS Claims。
 
 ---
 
@@ -221,7 +221,7 @@ CS Concept 是哪個 Clause 的 WP？
 >      • 對需處置的風險定義保護目標
 >      • 每個 Goal 連結到 Threat Scenario
 >          ↓
-> 4. Cybersecurity Claims (Clause 9.5)
+> 4. Cybersecurity Claims (Clause 9.4 — 與 Goals 同節)
 >      • Out-of-scope / Assumed / Transferred 風險的處置主張
 >          ↓
 > 5. Cybersecurity Concept (Clause 9.5)

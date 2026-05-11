@@ -235,14 +235,14 @@ A3 --> A3a
 ## 與 TARA 八步驟的關係
 
 ```
-TARA Step 4: Attack Path Analysis
+TARA Step 4 (Clause 15.6): Attack Path Analysis
    └── 工具：Attack Tree（主要）
 
-TARA Step 5: Attack Feasibility
+TARA Step 5 (Clause 15.7): Attack Feasibility Rating
    └── 評估每個葉節點
 
-TARA Step 6: Risk Determination
-   └── 取最低樹路徑的 feasibility 對應 Impact
+TARA Step 6 (Clause 15.8): Risk Value Determination
+   └── 取最容易（最高 feasibility / 最低 Attack Potential 分數）樹路徑對應 Impact
 ```
 
 ---

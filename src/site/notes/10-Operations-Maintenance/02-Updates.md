@@ -120,6 +120,27 @@ Post-Update Monitoring
 - 更新中車輛仍能運作
 - 風險降低
 
+### A/B Partition 與 Anti-rollback Counter 的互動
+
+表面上「保留舊版以便回滾」與「anti-rollback 阻止降版」似乎矛盾，實際上兩者是**相鄰但分工**的機制：
+
+```
+新版下載到 B → 切換 active → 重開機到 B
+                                    │
+                       ┌────────────┴────────────┐
+                       │                          │
+                  自我測試 PASS              自我測試 FAIL
+                       │                          │
+                       ↓                          ↓
+              遞增 anti-rollback counter      回滾到 A（緊急 fallback）
+              （從此無法降到舊版）              ← A/B 機制發揮作用
+                       │
+                       ↓
+              長期攻擊者無法降到已知有弱點的舊版
+```
+
+關鍵：anti-rollback counter **在新版 commit（通過自我測試）後**才遞增，因此短期 fallback 與長期防降攻擊**不衝突**。
+
 ---
 
 ## 更新與 TARA 的關係

@@ -11,31 +11,32 @@
 ## 從這裡開始
 
 1. **[[00-Dashboard/MOC\|學習地圖 (MOC)]]** — 完整章節索引與學習路徑
-2. **[[00-Dashboard/Quick-Reference\|速查表]]** — 一頁速覽全標準
-3. **[[00-Dashboard/Exam-Traps\|考試陷阱]]** — 15 個易混淆觀念
+2. **[[00-Dashboard/Standard-TOC\|官方目次]]** — ISO/SAE 21434:2021 完整 Clause + Annex 編號
+3. **[[00-Dashboard/Quick-Reference\|速查表]]** — 一頁速覽全標準
+4. **[[00-Dashboard/Exam-Traps\|考試陷阱]]** — 15 個易混淆觀念
 
 ---
 
 ## 章節結構
 
-| 編號     | 主題                            | 對應 Clause           | 檔案數    |
-| ------ | ----------------------------- | ------------------- | ------ |
-| **00** | Dashboard（入口）                 | —                   | 4      |
-| **01** | Foundations 基礎                | Clause 1-4 + 法規     | 6      |
-| **02** | Organizational Mgmt           | Clause 5 (CSMS)     | 7      |
-| **03** | Project-Dependent             | Clause 6            | 8      |
-| **04** | Distributed Activities        | Clause 7 (CIA)      | 4      |
-| **05** | Continual Activities          | Clause 8            | 5      |
-| **06** | Concept Phase                 | Clause 9            | 5      |
-| **07** | Product Development           | Clause 10           | 5      |
-| **08** | Validation                    | Clause 11           | 3      |
-| **09** | Production                    | Clause 12           | 3      |
-| **10** | Operations & Maintenance      | Clause 13           | 3      |
-| **11** | End of Support / Decommission | Clause 14           | 3      |
-| **12** | TARA Methods                  | **Clause 15 (⭐核心)** | 9      |
-| **13** | Annexes & Tools               | Annex E + 業界方法      | 4      |
-| **14** | Exam Practice                 | 綜合模擬                | 3      |
-| **總計** |                               |                     | **72** |
+| 編號     | 主題                          | 對應 Clause            | 檔案數 |
+| -------- | ----------------------------- | ---------------------- | ------ |
+| **00**   | Dashboard（入口）             | —                      | 4      |
+| **01**   | Foundations 基礎              | Clause 1-4 + 法規      | 6      |
+| **02**   | Organizational Mgmt           | Clause 5 (CSMS)        | 7      |
+| **03**   | Project-Dependent             | Clause 6               | 8      |
+| **04**   | Distributed Activities        | Clause 7 (CIA)         | 4      |
+| **05**   | Continual Activities          | Clause 8               | 5      |
+| **06**   | Concept Phase                 | Clause 9               | 5      |
+| **07**   | Product Development           | Clause 10              | 5      |
+| **08**   | Validation                    | Clause 11              | 3      |
+| **09**   | Production                    | Clause 12              | 3      |
+| **10**   | Operations & Maintenance      | Clause 13              | 3      |
+| **11**   | End of Support / Decommission | Clause 14              | 3      |
+| **12**   | TARA Methods                  | **Clause 15 (⭐核心)** | 9      |
+| **13**   | Annexes & Tools               | Annex E + 業界方法     | 4      |
+| **14**   | Exam Practice                 | 綜合模擬               | 3      |
+| **總計** | (不含 README)                 |                        | **72** |
 
 ---
 
@@ -64,7 +65,7 @@ Week 5：補強 + 模擬題
 
 每個資料夾內含對應 **Practice-XXX.md**，共：
 
-- 9 個章節練習題（每題集 6-15 題）
+- 12 個章節練習題（每題集 6-15 題）
 - 3 個跨章節模擬試題（Mock-Exam-1/2/3）
 - 約 **120+ 題**
 

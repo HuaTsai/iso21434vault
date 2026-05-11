@@ -139,8 +139,8 @@ D. 全部跳過處置，反正 Release 後可監控
 >
 > - A：未處置的 High Risk 不可 Release
 > - **B：正確**——High 已 reduce，Medium 接受有理由（殘餘風險文件化 + 適當層級簽核）
-> - C：接受層級不足（High Risk 通常需 VP/CTO 層級接受）
-> - D：違反 Clause 6.4.11
+> - C：接受層級**可能**不足；ISO 21434 規定由 appropriate authority 接受但未指定職級。**業界實務**通常 High Risk 由 VP/CTO 等高層級接受；具體層級由組織政策定義
+> - D：違反 Clause 6.4.9
 >
 > 參考 [[03-Project-Dependent/07-Release-for-Post-Development\|03-Project-Dependent/07-Release-for-Post-Development]]、[[00-Dashboard/Exam-Traps#Trap 14\|00-Dashboard/Exam-Traps#Trap 14]]
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/02-organizational-management/05-information-sharing/","title":"資訊共享 (Information Sharing)","tags":["iso-21434","concept-note","csms","information-sharing"],"dg-note-properties":{"title":"資訊共享 (Information Sharing)","source_pdf":"內部彙整 (ISO 21434 Clause 5.4.5)","part":"Clause 5","keywords":["information-sharing","isac","threat-intelligence","disclosure"],"tags":["iso-21434","concept-note","csms","information-sharing"],"created":"2026-05-11"}}
+{"dg-publish":true,"permalink":"/02-organizational-management/05-information-sharing/","title":"資訊共享 (Information Sharing)","tags":["iso-21434","concept-note","csms","information-sharing"],"dg-note-properties":{"title":"資訊共享 (Information Sharing)","source_pdf":"內部彙整 (ISO 21434 Clause 5.4.3)","part":"Clause 5","keywords":["information-sharing","isac","threat-intelligence","disclosure"],"tags":["iso-21434","concept-note","csms","information-sharing"],"created":"2026-05-11"}}
 ---
 
 
@@ -98,7 +98,7 @@
     ↓
 組織修補
     ↓
-協調揭露時間（通常 90 天）
+協調揭露時間（業界常見 30-90 天，視個案協商；ISO 不規範天數）
     ↓
 公開 CVE / 通告
 ```

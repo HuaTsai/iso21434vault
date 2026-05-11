@@ -14,29 +14,39 @@
 
 ## Event vs Incident vs Vulnerability
 
+> [!important] 標準定義（Clause 3）
+>
+> - **Cybersecurity Event** = observable occurrence in an item or component that has cybersecurity implications（**狀態變化的可觀察事件**）
+> - **Cybersecurity Incident** = cybersecurity event that adversely affects ...（**incident 是 event 的子集**）
+> - **Vulnerability** = weakness that can be exploited（**獨立概念**，來自 weakness）
+>
+> 注意：CVE / 研究通報 / SAST 結果**不是** "event"，而是 Clause 8.3 monitoring 蒐集的弱點情報，直接走 vulnerability 流程，不經過 8.4 event evaluation。
+
 ```
-┌──────────────────────────────────────┐
-│ Cybersecurity Event                   │
-│ (任何可能與資安相關的觀察)               │
-└────────────────┬─────────────────────┘
-                 │
-         Event Assessment (8.4)
-                 │
-       ┌─────────┼─────────┐
-       │         │         │
-       ↓         ↓         ↓
-   False     Vulnerability  Incident
-   Positive  （需處置弱點）  （正在發生/已發生攻擊）
-                 │            │
-                 ↓            ↓
-            8.5/8.6      Clause 13 IR
+Clause 8.3 Monitoring 蒐集所有資安資訊
+              │
+     ┌────────┴────────────┐
+     │                     │
+     ↓                     ↓
+[Path A] Cybersecurity   [Path B] 弱點情報
+         Event                    (CVE / 研究 / SAST)
+     │                            │
+     ↓                            ↓
+8.4 Event Evaluation         8.5 Vulnerability Analysis
+     │                            │
+     ├── 是 incident             ↓
+     │   (event 的子集)      8.6 Vulnerability Management
+     │      ↓
+     │   Clause 13 IR
+     └── 無 cybersecurity
+         implication → 關閉
 ```
 
-| 術語              | 定義                       | 處置流程                                  |
-| ----------------- | -------------------------- | ----------------------------------------- |
-| **Event**         | 任何可能與資安相關的觀察   | 進入 Event Assessment                     |
-| **Vulnerability** | 確認的可利用弱點           | Vulnerability Analysis (8.5) + Mgmt (8.6) |
-| **Incident**      | 實際發生（或正發生）的攻擊 | Incident Response (Clause 13)             |
+| 術語              | 定義（Clause 3）                               | 來源                          | 處置流程                                    |
+| ----------------- | ---------------------------------------------- | ----------------------------- | ------------------------------------------- |
+| **Event**         | 可觀察的資安相關事件                           | 監控、IDS、日誌、用戶通報     | 8.4 Event Evaluation                        |
+| **Incident**      | adversely affects 的 event（event 的**子集**） | 由 event evaluation 升級      | Clause 13 Incident Response                 |
+| **Vulnerability** | 可被利用的 weakness（**獨立概念**）            | CVE、研究通報、SAST、Pen Test | 8.5 Vulnerability Analysis + 8.6 Management |
 
 ---
 

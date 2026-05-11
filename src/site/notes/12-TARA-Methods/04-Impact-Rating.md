@@ -8,12 +8,12 @@
 > [!important]
 > ISO 21434 採用 **SFOP** 模型（含 4 個獨立評估面）：
 
-| 縮寫  | 中文             | 範例                     |
-| ----- | ---------------- | ------------------------ |
-| **S** | Safety 安全      | 人員傷亡、實體傷害       |
-| **F** | Financial 財務   | 召回、賠償、車輛價值     |
-| **O** | Operational 營運 | 功能不可用、效能降級     |
-| **P** | Privacy 隱私     | PII 洩漏、追蹤、商業機密 |
+| 縮寫  | 中文             | 範例                                                        |
+| ----- | ---------------- | ----------------------------------------------------------- |
+| **S** | Safety 安全      | 人員傷亡、實體傷害                                          |
+| **F** | Financial 財務   | 召回、賠償、車輛價值                                        |
+| **O** | Operational 營運 | 功能不可用、效能降級                                        |
+| **P** | Privacy 隱私     | PII 洩漏、車主行為追蹤、隱私法規違規（GDPR/CCPA）、商業機密 |
 
 每個面**獨立評等**，最後取「**最嚴重的**」作為 Overall Impact。
 
@@ -21,7 +21,7 @@
 
 ## 四個等級
 
-ISO 21434 Annex F 建議四級：
+ISO 21434 **Annex F (informative)** 建議四級分類（組織可在 CSMS 中自訂閾值或調整等級數）：
 
 | 等級 | 英文       | 中文   | 程度                |
 | ---- | ---------- | ------ | ------------------- |
@@ -43,7 +43,7 @@ ISO 21434 Annex F 建議四級：
 | Moderate   | 輕傷、短期治療可恢復         |
 | Negligible | 無人身傷害                   |
 
-**對應 ISO 26262 嚴重度 (S0-S3)**：
+**對應參考 ISO 26262 嚴重度 (S0-S3)**（**不是直接互換**）：
 
 ```
 Severe  ≈ S3
@@ -51,6 +51,10 @@ Major   ≈ S2
 Moderate ≈ S1
 Negligible ≈ S0
 ```
+
+> [!warning]
+> ISO 26262 的 S 評等是 HARA 對「未控制後果」評估（含可控性 C 與曝露率 E 維度）；ISO 21434 Safety 是針對特定 damage scenario 對 road user 的衝擊評估。**兩者皆 4 級但邊界與評估邏輯不同**。
+> 若同一 hazard 在兩標準下評等不一致，需在 CS Case 中協調 rationale，**不可**直接套用 HARA 結果。
 
 ### Financial 財務
 
@@ -172,11 +176,12 @@ impact_rating:
 >
 > 1. **SFOP** 四大類別（背熟縮寫）
 > 2. 各面**獨立評估**，最後取最高
-> 3. 四個等級：Negligible / Moderate / Major / Severe
-> 4. Safety 面可與 ISO 26262 對接（S0-S3）
-> 5. Impact 評等需**文件化理由**
-> 6. 金額閾值組織自定，無國際標準
-> 7. Privacy 含**身分盜用 + 追蹤 + 商業機密**
+> 3. **避免雙重計算 (double counting)**：同一後果不可重複算進不同面。例如「煞車失靈導致死亡」的「致命」屬 Safety，「煞車不可用」才屬 Operational——rationale 必須從不同角度描述
+> 4. 四個等級：Negligible / Moderate / Major / Severe
+> 5. Safety 面可與 ISO 26262 對接（S0-S3）
+> 6. Impact 評等需**文件化理由**
+> 7. 金額閾值組織自定，無國際標準
+> 8. Privacy 含**身分盜用 + 追蹤 + 商業機密**
 
 ---
 

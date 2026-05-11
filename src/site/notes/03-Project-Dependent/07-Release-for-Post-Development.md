@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/03-project-dependent/07-release-for-post-development/","title":"發行至後開發階段 (Release for Post-Development)","tags":["iso-21434","concept-note","project-dependent","release"],"dg-note-properties":{"title":"發行至後開發階段 (Release for Post-Development)","source_pdf":"內部彙整 (ISO 21434 Clause 6.4.11)","part":"Clause 6","keywords":["release","post-development","gate","criteria"],"tags":["iso-21434","concept-note","project-dependent","release"],"created":"2026-05-11"}}
+{"dg-publish":true,"permalink":"/03-project-dependent/07-release-for-post-development/","title":"發行至後開發階段 (Release for Post-Development)","tags":["iso-21434","concept-note","project-dependent","release"],"dg-note-properties":{"title":"發行至後開發階段 (Release for Post-Development)","source_pdf":"內部彙整 (ISO 21434 Clause 6.4.9)","part":"Clause 6","keywords":["release","post-development","gate","criteria"],"tags":["iso-21434","concept-note","project-dependent","release"],"created":"2026-05-11"}}
 ---
 
 
@@ -18,7 +18,7 @@
 ```
 ✓ Cybersecurity Case 完成
 ✓ Cybersecurity Validation 通過（Clause 11）
-✓ Cybersecurity Assessment 通過（Clause 6.4.10）
+✓ Cybersecurity Assessment 通過（Clause 6.4.8）
 ✓ 所有 TARA 風險已「處置」或「明確接受」
 ✓ 殘餘風險被適當層級接受 + 文件化
 ✓ 後開發工件已準備：

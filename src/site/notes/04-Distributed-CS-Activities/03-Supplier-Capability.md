@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/04-distributed-cs-activities/03-supplier-capability/","title":"供應商能力評估","tags":["iso-21434","concept-note","distributed","supplier"],"dg-note-properties":{"title":"供應商能力評估","source_pdf":"內部彙整 (ISO 21434 Clause 7.4.2)","part":"Clause 7","keywords":["supplier-capability","rfq","evaluation","audit"],"tags":["iso-21434","concept-note","distributed","supplier"],"created":"2026-05-11"}}
+{"dg-publish":true,"permalink":"/04-distributed-cs-activities/03-supplier-capability/","title":"供應商能力評估","tags":["iso-21434","concept-note","distributed","supplier"],"dg-note-properties":{"title":"供應商能力評估","source_pdf":"內部彙整 (ISO 21434 Clause 7.4.1 Supplier capability)","part":"Clause 7","keywords":["supplier-capability","rfq","evaluation","audit"],"tags":["iso-21434","concept-note","distributed","supplier"],"created":"2026-05-11"}}
 ---
 
 
@@ -8,7 +8,7 @@
 > [!important]
 > 「**你不會把資安工作交給沒能力的人做**」
 >
-> Clause 7.4.2 要求客戶在採購前評估供應商的資安能力，確保：
+> Clause 7.4.1 (Supplier capability) 要求客戶在採購前評估供應商的資安能力（Clause 7.4.2 RFQ 則處理採購流程中的資安要求宣告）。確保：
 >
 > 1. 供應商能履行 CIA
 > 2. 供應商有適當的 CSMS
@@ -206,7 +206,7 @@ supplier_evaluation:
 
 > [!important] 高頻考點
 >
-> 1. 供應商能力評估在 **RFQ 階段就要做**
+> 1. 供應商能力評估（Clause 7.4.1）應在 **RFQ 階段（Clause 7.4.2）前後完成**，作為採購決策依據。兩節是相鄰但不同活動：7.4.1 = 評估能力；7.4.2 = 將資安要求寫入採購流程
 > 2. 評估維度：Process、Technical、Organizational、Track Record、Sustainability
 > 3. 認證**只是部分證據**，不取代評估
 > 4. 評估結果**寫入 CIA**

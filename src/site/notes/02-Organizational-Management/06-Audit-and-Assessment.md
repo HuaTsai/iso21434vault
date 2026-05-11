@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/02-organizational-management/06-audit-and-assessment/","title":"稽核與資安評估","tags":["iso-21434","concept-note","csms","audit"],"dg-note-properties":{"title":"稽核與資安評估","source_pdf":"內部彙整 (ISO 21434 Clause 5.4.7 + 6.4.10)","part":"Clause 5 + 6","keywords":["audit","assessment","independence","csms-audit","cs-assessment"],"tags":["iso-21434","concept-note","csms","audit"],"created":"2026-05-11"}}
+{"dg-publish":true,"permalink":"/02-organizational-management/06-audit-and-assessment/","title":"稽核與資安評估","tags":["iso-21434","concept-note","csms","audit"],"dg-note-properties":{"title":"稽核與資安評估","source_pdf":"內部彙整 (ISO 21434 Clause 5.4.7 + 6.4.8)","part":"Clause 5 + 6","keywords":["audit","assessment","independence","csms-audit","cs-assessment"],"tags":["iso-21434","concept-note","csms","audit"],"created":"2026-05-11"}}
 ---
 
 
@@ -8,7 +8,7 @@
 | 活動                         | 層級 | 焦點                       | 對應 Clause   |
 | ---------------------------- | ---- | -------------------------- | ------------- |
 | **CSMS Audit**               | 組織 | CSMS 流程是否被遵循？      | Clause 5      |
-| **Cybersecurity Assessment** | 專案 | 此專案的資安成果是否充分？ | Clause 6.4.10 |
+| **Cybersecurity Assessment** | 專案 | 此專案的資安成果是否充分？ | Clause 6.4.8 |
 
 > [!warning] 易混淆
 > 兩者**不同層級、不同目的**。Audit 看「制度」，Assessment 看「結果」。

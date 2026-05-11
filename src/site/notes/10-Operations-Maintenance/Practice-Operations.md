@@ -64,7 +64,8 @@ D. 通訊計畫（內部 + 外部）
 
 > [!answer]- 解答
 > **C**。
-> 加密演算法屬於設計細節（Clause 10），不是 IR Plan 的範疇。
+> **產品設計階段**的加密演算法選擇屬於 Clause 10 設計細節，不是 IR Plan 的範疇。
+> 注意：IR Plan **可包含**取證 / 應急通訊用的加密方法（如 evidence 包加密、與 CERT 安全通訊），但這是支援用的工具，與「設計階段的演算法選型」不同。
 > IR Plan 重點：角色、SLA、Playbook、通訊、外部協作、演練。
 > 參考 [[10-Operations-Maintenance/01-Incident-Response\|10-Operations-Maintenance/01-Incident-Response]]
 

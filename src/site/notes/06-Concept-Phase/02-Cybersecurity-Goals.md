@@ -28,7 +28,7 @@ CS Goal = 對某 Asset 的某 Property 的保護
 
 ## 資安屬性 (Cybersecurity Properties)
 
-ISO 21434 採用擴展的 **CIA + AAA** 模型：
+ISO 21434 採用擴展的 **CIA + 補充屬性** 模型（業界俗稱 CIA-AAA，但 AAA 在資安傳統指 Authentication/Authorization/Accounting，故本筆記用「CIA + 補充屬性」避免歧義）：
 
 | 屬性                | 中文       | 例子         |
 | ------------------- | ---------- | ------------ |

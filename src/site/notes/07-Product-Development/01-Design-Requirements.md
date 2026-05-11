@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/07-product-development/01-design-requirements/","title":"設計階段：資安需求與架構","tags":["iso-21434","concept-note","product-development","design"],"dg-note-properties":{"title":"設計階段：資安需求與架構","source_pdf":"內部彙整 (ISO 21434 Clause 10.4.1-10.4.2)","part":"Clause 10","keywords":["design","requirements","architecture","security-by-design"],"tags":["iso-21434","concept-note","product-development","design"],"created":"2026-05-11"}}
+{"dg-publish":true,"permalink":"/07-product-development/01-design-requirements/","title":"設計階段：資安需求與架構","tags":["iso-21434","concept-note","product-development","design"],"dg-note-properties":{"title":"設計階段：資安需求與架構","source_pdf":"內部彙整 (ISO 21434 Clause 10.4.1 Design)","part":"Clause 10","keywords":["design","requirements","architecture","security-by-design"],"tags":["iso-21434","concept-note","product-development","design"],"created":"2026-05-11"}}
 ---
 
 
@@ -10,16 +10,20 @@ ISO 21434 Clause 10 涵蓋產品開發 V-model 的左半邊：
 ```
 Cybersecurity Concept (Clause 9)
       ↓
-Cybersecurity Requirements   ← 10.4.1
+Cybersecurity Requirements   ┐
+      ↓                       │
+Security Architecture         ├─ 10.4.1 Design
+      ↓                       │
+Detailed Design (HW + SW)     │
+      ↓                       │
+Implementation                ┘
       ↓
-Security Architecture        ← 10.4.2
-      ↓
-Detailed Design (HW + SW)
-      ↓
-Implementation
-      ↓
-Verification                 ← 10.4.3
+Integration and Verification ← 10.4.2
 ```
+
+> [!note]
+> 官方 Clause 10.4 只有兩個子節：**10.4.1 Design**（含 Requirements、Architecture、Detailed Design、Implementation）與 **10.4.2 Integration and verification**。
+> 沒有獨立的 10.4.3。
 
 ---
 

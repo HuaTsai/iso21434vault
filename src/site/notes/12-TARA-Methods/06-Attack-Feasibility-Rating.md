@@ -12,9 +12,9 @@
 
 ---
 
-## 三種評估方法（Annex G）
+## 三種評估方法（Annex G，**informative**）
 
-ISO 21434 提供三種方法：
+ISO 21434 **Annex G 為 informative**（資訊性，非強制）。組織可選用以下方法之一或自訂等效方法，分數值與閾值皆可在 CSMS 中自訂：
 
 | 方法                       | 來源                            | 特色                           |
 | -------------------------- | ------------------------------- | ------------------------------ |
@@ -124,8 +124,11 @@ attack_potential_parameters: 1. Elapsed Time         流逝時間（攻擊需多
 | 0 – 13      | Basic                  | **High** (容易)        |
 | 14 – 19     | Enhanced-Basic         | **Medium**             |
 | 20 – 24     | Moderate               | **Low**                |
-| 25 – 30     | High                   | **Very Low**           |
-| ≥ 31        | Beyond High            | **(infeasible)**       |
+| ≥ 25        | High / Beyond High     | **Very Low**           |
+
+> [!note]
+> ISO 21434 Annex G 採用**四級**系統（High / Medium / Low / Very Low）。Common Criteria (ISO/IEC 18045) 才有「Beyond High = infeasible」第五級的延伸；ISO 21434 文件本身不使用此第五級。
+> 若採用 Annex G **informative** 表，組織也可在 CSMS 中自訂閾值。
 
 > [!tip] 記憶法
 > 「**分數是攻擊代價，代價越高 → Feasibility 越低**」

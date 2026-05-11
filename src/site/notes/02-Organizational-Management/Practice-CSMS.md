@@ -75,7 +75,7 @@ D. Tool Approval Records
 
 > [!answer]- 解答
 > **C. ASIL Decomposition Record**。
-> ASIL 屬於 ISO 26262，不在 ISO 21434 範圍。資安的對應等級是 **CAL**（且非強制）。
+> ASIL 是 ISO 26262 的 WP，**ISO 21434 不要求 CSMS 產出此文件**（co-engineering 情境可能共享輸入）。資安的對應等級是 **CAL**（informative，非強制）。
 > 參考 [[02-Organizational-Management/01-CSMS-Overview\|02-Organizational-Management/01-CSMS-Overview]]、[[00-Dashboard/Exam-Traps#Trap 2\|00-Dashboard/Exam-Traps#Trap 2]]
 
 ---
@@ -86,12 +86,12 @@ D. Tool Approval Records
 
 > [!answer]- 解答
 >
-> | 比較 | CSMS Audit | Cybersecurity Assessment |
-> |---|---|---|
-> | 層級 | 組織 | 專案 |
-> | 焦點 | 流程是否被遵循 | 專案結果是否充分 |
-> | Clause | 5 | 6.4.10 |
-> | 頻率 | 至少年度 | 重大階段（Release 前）|
+> | 比較   | CSMS Audit     | Cybersecurity Assessment |
+> | ------ | -------------- | ------------------------ |
+> | 層級   | 組織           | 專案                     |
+> | 焦點   | 流程是否被遵循 | 專案結果是否充分         |
+> | Clause | 5              | 6.4.8                    |
+> | 頻率   | 至少年度       | 重大階段（Release 前）   |
 >
 > **CSMS Audit 範例**：稽核員檢視「公司 TARA 流程是否在所有近期專案被執行」。發現某專案未做 TARA → Major NC。
 >
@@ -140,7 +140,7 @@ D. 只在 ASIL D 專案使用前才需評估
 
 > [!answer]- 解答
 > **B**。
-> Clause 5.4.6 要求工具評估與批准紀錄。所有用於資安活動的工具都需評估，不限 ASIL 等級（ASIL 是 26262 概念）。
+> Clause 5.4.5 要求工具評估與批准紀錄。所有用於資安活動的工具都需評估，不限 ASIL 等級（ASIL 是 26262 概念）。
 >
 > 參考 [[02-Organizational-Management/04-Tool-Management\|02-Organizational-Management/04-Tool-Management]]
 

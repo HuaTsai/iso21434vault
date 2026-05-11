@@ -5,7 +5,7 @@
 
 ## 是什麼？
 
-> [!quote] 定義
+> [!quote] 定義（業界通用釋義，非 Clause 3 verbatim）
 > agreement between customer and supplier specifying the cybersecurity-related interactions, responsibilities, work products and information to be shared.
 
 簡言之：**「跨組織資安合作合約」**。
