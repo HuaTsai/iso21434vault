@@ -22,7 +22,7 @@ CSMS 是哪一個 Clause 的核心？
 下列哪一項是 CSMS 與 ISMS (ISO 27001) 的**主要差異**？
 
 A. CSMS 包含 ISMS
-B. CSMS 聚焦**車輛產品**資安；ISMS 聚焦**組織 IT** 資訊安全
+B. CSMS 聚焦車輛產品資安；ISMS 聚焦組織 IT 資訊安全
 C. 兩者對象相同，僅標準不同
 D. CSMS 不包含管理流程，只含技術
 
@@ -70,7 +70,7 @@ D. 等政策運行 3 年後再申請
 
 A. Organizational Cybersecurity Policy
 B. Competence Management Plan
-C. **ASIL Decomposition Record**
+C. ASIL Decomposition Record
 D. Tool Approval Records
 
 > [!answer]- 解答

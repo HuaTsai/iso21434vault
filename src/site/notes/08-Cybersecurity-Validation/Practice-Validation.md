@@ -15,7 +15,7 @@ ISO 21434 Clause 11 的 Cybersecurity Validation 是在哪個**層級**進行？
 A. 程式碼層級
 B. 元件層級
 C. 系統層級
-D. **車輛層級 (Vehicle-level)**
+D. 車輛層級 (Vehicle-level)
 
 > [!answer]- 解答
 > **D**。
@@ -30,7 +30,7 @@ D. **車輛層級 (Vehicle-level)**
 ISO 21434 Clause 11 是否**規範**滲透測試？
 
 A. 否，只是建議
-B. **是，規範要求**
+B. 是，規範要求
 C. 只有 ASIL-D 系統才需要
 D. 只有 CAL-4 系統才需要
 
@@ -48,7 +48,7 @@ D. 只有 CAL-4 系統才需要
 
 A. 組織內獨立 CS 團隊
 B. 外部專業 Pen Test 公司
-C. **該專案的開發團隊**
+C. 該專案的開發團隊
 D. 由 OEM 與 Tier-1 共同組成的獨立 Validation 團隊
 
 > [!answer]- 解答
@@ -64,7 +64,7 @@ D. 由 OEM 與 Tier-1 共同組成的獨立 Validation 團隊
 
 A. CS Plan
 B. CS Requirements
-C. **CS Goals + CS Claims**
+C. CS Goals + CS Claims
 D. CSMS Policies
 
 > [!answer]- 解答
@@ -81,7 +81,7 @@ D. CSMS Policies
 A. Cellular 介面
 B. OBD-II 介面
 C. CAN 內部訊息
-D. **以上都不可省略**
+D. 以上都不可省略
 
 > [!answer]- 解答
 > **D**。

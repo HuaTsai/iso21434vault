@@ -53,7 +53,7 @@ D. CIA 與供應商能力評估無關
 某 OEM 正在準備一個新車型開發，想評估三家潛在 Tier-1 供應商。下列哪個時機最適合納入資安要求？
 
 A. 簽約後再談
-B. **RFQ 階段就納入**
+B. RFQ 階段就納入
 C. 進入開發後才談
 D. Validation 前才談
 
@@ -69,7 +69,7 @@ D. Validation 前才談
 下列哪些**不能**直接證明供應商有產品資安能力？
 
 A. UN R155 CSMS 認證
-B. **ISO 27001 認證**
+B. ISO 27001 認證
 C. 過去 ISO 21434 專案經驗
 D. TARA 流程文件
 
@@ -133,7 +133,7 @@ D. TARA 流程文件
 下列關於 CIA 與 DIA 的描述，何者**正確**？
 
 A. CIA 是 DIA 的子集
-B. **CIA (ISO 21434) 與 DIA (ISO 26262) 是並列概念，可整合為 IDIA**
+B. CIA (ISO 21434) 與 DIA (ISO 26262) 是並列概念，可整合為 IDIA
 C. CIA 包含 DIA
 D. DIA 已過時，全部用 CIA 取代
 

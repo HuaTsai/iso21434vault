@@ -22,7 +22,7 @@ ISO 21434 Clause 12 的核心 WP 是什麼？
 下列哪一項**最符合** ISO 21434 對 Provisioning 的要求？
 
 A. 私鑰由 CA 產生後傳輸至 device
-B. **私鑰於 device 內 HSM 生成，僅 public key 用於 CSR**
+B. 私鑰於 device 內 HSM 生成，僅 public key 用於 CSR
 C. 全車隊共用一把對稱金鑰，方便管理
 D. Debug 介面開著方便日後維護
 
@@ -38,7 +38,7 @@ D. Debug 介面開著方便日後維護
 
 A. SecOC Master Key 應派生至各車輛獨立的子金鑰
 B. Manufacturing Sub-CA 用於日常 provisioning
-C. **Root CA 應放在連網的伺服器以便隨時簽發**
+C. Root CA 應放在連網的伺服器以便隨時簽發
 D. 廢品的金鑰需撤銷
 
 > [!answer]- 解答

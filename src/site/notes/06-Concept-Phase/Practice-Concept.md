@@ -23,7 +23,7 @@ ISO 21434 的 Cybersecurity Concept Phase 在哪個 Clause？
 下列何者**最正確**描述 Cybersecurity Goal、Claim、Concept、Requirement 的差異？
 
 A. 四者都是同義詞
-B. **Goal = 保護目標；Claim = 假設/轉移；Concept = 概念解決方案；Requirement = 可實作可驗證細節**
+B. Goal = 保護目標；Claim = 假設/轉移；Concept = 概念解決方案；Requirement = 可實作可驗證細節
 C. Requirement 是最高層級
 D. Claim 是技術細節
 
@@ -51,7 +51,7 @@ D. Claim 是技術細節
 
 A. 「TCU 應使用 AES-256-GCM」
 B. 「TCU 應安全」
-C. **「TCU 韌體的完整性應被保護免於未經授權的修改」**
+C. 「TCU 韌體的完整性應被保護免於未經授權的修改」
 D. 「TCU 應修補所有弱點」
 
 > [!answer]- 解答
@@ -94,7 +94,7 @@ D. 「TCU 應修補所有弱點」
 依 ISO 21434，每個 Cybersecurity Goal 應**對應**多少個 Threat Scenario？
 
 A. 恰好 1 個
-B. **至少 1 個**
+B. 至少 1 個
 C. 不需對應
 D. 至少 3 個
 
@@ -142,7 +142,7 @@ D. 至少 3 個
 A. Scope（in/out）
 B. Boundaries（物理/邏輯/時間）
 C. Interfaces
-D. **具體加密演算法選擇**
+D. 具體加密演算法選擇
 
 > [!answer]- 解答
 > **D**。

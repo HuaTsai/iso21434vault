@@ -13,7 +13,7 @@
 下列何者**最正確**描述 Cybersecurity Plan 與 Cybersecurity Case 的差異？
 
 A. 兩者是同義詞
-B. **CS Plan 是事前計畫**；**CS Case 是事後證據與論證**
+B. CS Plan 是事前計畫；CS Case 是事後證據與論證
 C. CS Plan 由 Tier-1 製作；CS Case 由 OEM 製作
 D. CS Plan 在 Release 後不再更新；CS Case 從 Release 才開始
 
@@ -33,7 +33,7 @@ D. CS Plan 在 Release 後不再更新；CS Case 從 Release 才開始
 在 RASIC 矩陣中，下列哪一個是**必須唯一**的？
 
 A. R (Responsible)
-B. **A (Accountable)**
+B. A (Accountable)
 C. S (Supporting)
 D. I (Informed)
 
@@ -117,7 +117,7 @@ ISO 21434 中對 Tailoring **不可**裁適的是什麼？
 A. Claim
 B. Argument
 C. Evidence
-D. **Action Plan**
+D. Action Plan
 
 > [!answer]- 解答
 > **D. Action Plan**。
@@ -152,7 +152,7 @@ Cybersecurity Assessment 由誰執行？
 
 A. Project CS Manager
 B. Project Manager
-C. **獨立評估員（不可為專案執行者）**
+C. 獨立評估員（不可為專案執行者）
 D. 客戶代表
 
 > [!answer]- 解答

@@ -22,7 +22,7 @@ NIST 標準的 IR 生命週期六階段為何？
 下列何者**最正確**描述 ISO 21434 與 UN R156 的關係？
 
 A. UN R156 是 ISO 21434 的一部分
-B. **ISO 21434 處理整體資安；UN R156 處理軟體更新管理；兩者並列**
+B. ISO 21434 處理整體資安；UN R156 處理軟體更新管理；兩者並列
 C. UN R156 取代了 ISO 21434
 D. 兩者無關
 
@@ -41,7 +41,7 @@ D. 兩者無關
 下列哪一項**最重要**用於防止「降級攻擊 (downgrade attack)」？
 
 A. TLS 1.3
-B. **Anti-rollback counter (eFuse / monotonic counter)**
+B. Anti-rollback counter (eFuse / monotonic counter)
 C. A/B Partition
 D. SBOM
 
@@ -59,7 +59,7 @@ D. SBOM
 
 A. 角色與責任
 B. 嚴重度分級與 SLA
-C. **詳細加密演算法選擇**
+C. 詳細加密演算法選擇
 D. 通訊計畫（內部 + 外部）
 
 > [!answer]- 解答
@@ -189,7 +189,7 @@ OTA 更新的 A/B Partition 模式的主要**優點**為何？
 UN R156 SUMS 的認證有效期為多久？
 
 A. 1 年
-B. **3 年**
+B. 3 年
 C. 5 年
 D. 永久
 

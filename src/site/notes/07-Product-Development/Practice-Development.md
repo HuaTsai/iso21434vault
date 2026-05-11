@@ -13,7 +13,7 @@
 下列關於 Verification 與 Validation 的描述，何者**正確**？
 
 A. 兩者是同義詞
-B. **Verification 在 Clause 10（元件/系統層），Validation 在 Clause 11（車輛層）**
+B. Verification 在 Clause 10（元件/系統層），Validation 在 Clause 11（車輛層）
 C. Verification 由客戶執行，Validation 由供應商執行
 D. Validation 只在元件層
 
@@ -33,7 +33,7 @@ D. Validation 只在元件層
 
 A. Verifiable
 B. Atomic
-C. **同時為 Top Management 簽核**
+C. 同時為 Top Management 簽核
 D. Traceable
 
 > [!answer]- 解答
@@ -87,7 +87,7 @@ D. Traceable
 A. Least Privilege
 B. Defense in Depth
 C. Fail Secure
-D. **Maximum Coupling**
+D. Maximum Coupling
 
 > [!answer]- 解答
 > **D**。
@@ -101,7 +101,7 @@ D. **Maximum Coupling**
 下列何者**最正確**描述 Weakness 與 Vulnerability 在開發階段的處理？
 
 A. 兩者都必須立即修補
-B. **Weakness 可記錄但不必立即修；Vulnerability（可被利用）需處置**
+B. Weakness 可記錄但不必立即修；Vulnerability（可被利用）需處置
 C. Weakness 比 Vulnerability 更嚴重
 D. 開發階段不需做這種分析
 
@@ -143,7 +143,7 @@ D. 開發階段不需做這種分析
 下列何者是汽車**根信任 (Root of Trust)** 的最佳實踐？
 
 A. 韌體中 hard-coded public key
-B. **eFuse / OTP 中儲存 root public key hash**
+B. eFuse / OTP 中儲存 root public key hash
 C. EEPROM 中儲存 root public key
 D. 雲端動態下載 root public key
 
@@ -213,7 +213,7 @@ D. 雲端動態下載 root public key
 下列關於汽車 CAN 訊息資安的描述，何者**最正確**？
 
 A. CAN 本身已有加密，不需額外保護
-B. **SecOC 是 AUTOSAR 標準，提供 CMAC + Freshness Value 機制**
+B. SecOC 是 AUTOSAR 標準，提供 CMAC + Freshness Value 機制
 C. CAN 訊息只能用 TLS 保護
 D. SecOC 只能保護機密性，不保護完整性
 

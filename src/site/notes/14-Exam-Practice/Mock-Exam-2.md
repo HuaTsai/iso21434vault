@@ -49,7 +49,7 @@
 
 TARA 風險矩陣中，**Impact = Severe + Feasibility = High** 的 Risk Value 為何？
 
-A. 3 B. 4 C. **5** D. 6
+A. 3 B. 4 C. 5 D. 6
 
 > [!answer]-
 > **C. 5 (Very High)**。最高風險，必須處置。

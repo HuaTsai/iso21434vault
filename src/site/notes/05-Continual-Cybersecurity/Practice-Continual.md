@@ -14,7 +14,7 @@ ISO 21434 Clause 8 的活動**範圍**是什麼？
 
 A. 只有產品在運行時
 B. 只有發現安全事件時
-C. **從 CSMS 在組織內生效起，至產品除役止，跨整個生命週期**
+C. 從 CSMS 在組織內生效起，至產品除役止，跨整個生命週期
 D. 只在 Release 後
 
 > [!answer]- 解答
@@ -30,7 +30,7 @@ D. 只在 Release 後
 A. 內部 IDS / SIEM
 B. CVE 資料庫
 C. 客戶服務回饋
-D. **公司年度財務報告**
+D. 公司年度財務報告
 
 > [!answer]- 解答
 > **D**。
@@ -61,7 +61,7 @@ D. **公司年度財務報告**
 下列何者**最正確**描述 Weakness 與 Vulnerability 的關係？
 
 A. 兩者完全相同
-B. **所有 Vulnerability 都是 Weakness，但反之不必然**
+B. 所有 Vulnerability 都是 Weakness，但反之不必然
 C. 所有 Weakness 都是 Vulnerability
 D. 兩者無關
 
@@ -107,7 +107,7 @@ CSIRT 收到 Auto-ISAC 通報「某新型 CAN-bus 攻擊技術公開發表」。
 下列哪個 Vulnerability Treatment 選項**最適合**用於「來自供應商的弱點」？
 
 A. 自己修補就好
-B. **Share/Transfer（要求供應商修補 + 在 CIA 中追蹤）**
+B. Share/Transfer（要求供應商修補 + 在 CIA 中追蹤）
 C. 完全忽略
 D. 立即移除整個元件
 
@@ -172,7 +172,7 @@ D. 立即移除整個元件
 
 A. 7 天
 B. 30 天
-C. **90 天**
+C. 90 天
 D. 1 年
 
 > [!answer]- 解答

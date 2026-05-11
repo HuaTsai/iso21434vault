@@ -34,7 +34,7 @@
 下列何者**最正確**描述 SFOP？
 
 A. Safety / Function / Operational / Performance
-B. **Safety / Financial / Operational / Privacy**
+B. Safety / Financial / Operational / Privacy
 C. Severity / Frequency / Operational / Probability
 D. Spoofing / Forgery / Output / Process
 
@@ -52,7 +52,7 @@ D. Spoofing / Forgery / Output / Process
 A. Very High
 B. High
 C. Low
-D. **Very Low**
+D. Very Low
 
 > [!answer]- 解答
 > **D. Very Low**。
@@ -124,7 +124,7 @@ ISO 21434 Annex G 提供的三種 Attack Feasibility 評估方法為何？
 下列何者**正確**描述 CAL 與 ASIL 的關係？
 
 A. CAL 4 等同 ASIL D
-B. **CAL 是 ISO 21434 的資安保證等級，與 ASIL（ISO 26262 功能安全完整性等級）獨立**
+B. CAL 是 ISO 21434 的資安保證等級，與 ASIL（ISO 26262 功能安全完整性等級）獨立
 C. CAL 包含 ASIL
 D. CAL 強制使用
 
@@ -207,7 +207,7 @@ ISO 21434 風險處置的四大選項為何？
 
 A. 兩者是同義詞
 B. Damage Scenario 描述攻擊步驟；Threat Scenario 描述後果
-C. **Damage Scenario 描述對 road user 的不利後果；Threat Scenario 描述如何達成這個後果**
+C. Damage Scenario 描述對 road user 的不利後果；Threat Scenario 描述如何達成這個後果
 D. Threat Scenario 必須來自 Annex 5
 
 > [!answer]- 解答
@@ -386,7 +386,7 @@ D. Threat Scenario 必須來自 Annex 5
 CAL 由哪兩個因素推導？
 
 A. Impact + Attack Feasibility
-B. **Impact + Attack Vector**
+B. Impact + Attack Vector
 C. S × E × C
 D. CVSS Score
 

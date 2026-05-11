@@ -13,7 +13,7 @@
 下列何者**最正確**描述 EoS 與 Decommissioning 的差異？
 
 A. 兩者是同義詞
-B. **EoS 是停止資安支援；Decommissioning 是實際停用報廢；兩者不同時點**
+B. EoS 是停止資安支援；Decommissioning 是實際停用報廢；兩者不同時點
 C. EoS 後車輛不能再使用
 D. Decommissioning 早於 EoS
 
@@ -34,7 +34,7 @@ D. Decommissioning 早於 EoS
 
 A. 通知所有相關方（車主、監管機構、供應鏈）
 B. 修補已知 High/Critical 弱點
-C. **重新進行完整 TARA**
+C. 重新進行完整 TARA
 D. 評估殘餘風險並記錄
 
 > [!answer]- 解答
@@ -53,7 +53,7 @@ D. 評估殘餘風險並記錄
 A. 車主 / 使用者
 B. 經銷商與服務廠
 C. 監管機構（UN R155 對口）
-D. **競爭對手**
+D. 競爭對手
 
 > [!answer]- 解答
 > **D**。
@@ -67,7 +67,7 @@ D. **競爭對手**
 下列哪一項是 Decommissioning **必要**的資安動作？
 
 A. 韌體更新至最新版
-B. **HSM 內金鑰 zeroize + PKI 憑證撤銷**
+B. HSM 內金鑰 zeroize + PKI 憑證撤銷
 C. 增加新功能
 D. 重新做 Pen Test
 

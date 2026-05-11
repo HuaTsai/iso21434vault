@@ -13,7 +13,7 @@
 
 ISO/SAE 21434:2021 是哪一年發布？
 
-A. 2018 B. 2020 C. **2021** D. 2023
+A. 2018 B. 2020 C. 2021 D. 2023
 
 > [!answer]-
 > **C. 2021**（2021 年 8 月聯合發布）
@@ -24,7 +24,7 @@ A. 2018 B. 2020 C. **2021** D. 2023
 
 ISO 21434 的主體規範性 Clause 範圍為何？
 
-A. 1-15 B. **5-15** C. 9-15 D. 全部 Clause
+A. 1-15 B. 5-15 C. 9-15 D. 全部 Clause
 
 > [!answer]-
 > **B. 5-15**。Clause 1-3 為範圍/參考/術語，Clause 4 為一般考量，Annex 多為 informative。
@@ -35,7 +35,7 @@ A. 1-15 B. **5-15** C. 9-15 D. 全部 Clause
 
 下列哪個術語**不在** ISO 21434 範圍？
 
-A. CSMS B. TARA C. **HARA** D. CIA
+A. CSMS B. TARA C. HARA D. CIA
 
 > [!answer]-
 > **C. HARA**（Hazard Analysis and Risk Assessment）是 ISO 26262 概念。
@@ -47,7 +47,7 @@ A. CSMS B. TARA C. **HARA** D. CIA
 某 OEM 與 Tier-1 開發新車型，誰負責簽署 CIA？
 
 A. 只有 Project Manager
-B. **雙方資安專業人員 + 適當層級主管**
+B. 雙方資安專業人員 + 適當層級主管
 C. 法務部門即可
 D. 不需簽署
 
@@ -60,7 +60,7 @@ D. 不需簽署
 
 UN R155 CSMS 認證有效期？
 
-A. 1 年 B. 2 年 C. **3 年** D. 5 年
+A. 1 年 B. 2 年 C. 3 年 D. 5 年
 
 > [!answer]-
 > **C. 3 年**
@@ -71,7 +71,7 @@ A. 1 年 B. 2 年 C. **3 年** D. 5 年
 
 Cybersecurity Validation（Clause 11）的層級為何？
 
-A. 元件層 B. 系統層 C. **車輛層 (Vehicle-level)** D. 程式碼層
+A. 元件層 B. 系統層 C. 車輛層 (Vehicle-level) D. 程式碼層
 
 > [!answer]-
 > **C. Vehicle-level**
@@ -83,7 +83,7 @@ A. 元件層 B. 系統層 C. **車輛層 (Vehicle-level)** D. 程式碼層
 下列何者**最正確**？
 
 A. CAL 4 = ASIL D
-B. **CAL 與 ASIL 是兩個獨立等級系統**
+B. CAL 與 ASIL 是兩個獨立等級系統
 C. ASIL 包含 CAL
 D. CAL 取代 ASIL
 
@@ -96,7 +96,7 @@ D. CAL 取代 ASIL
 
 某 Threat Scenario 的 Attack Potential 總分為 **18**，對應 Feasibility 為？
 
-A. High B. **Medium** C. Low D. Very Low
+A. High B. Medium C. Low D. Very Low
 
 > [!answer]-
 > **B. Medium**。
@@ -112,7 +112,7 @@ ISO 21434 的 Tailoring 規則中，下列**不可**裁適的是？
 A. WP 格式
 B. 活動的執行方式
 C. 活動深度
-D. **標準的 Objectives**
+D. 標準的 Objectives
 
 > [!answer]-
 > **D**。Objectives 不可裁適——必須達成。
@@ -123,7 +123,7 @@ D. **標準的 Objectives**
 
 Damage Scenario 是從誰的角度描述？
 
-A. 攻擊者 B. **Road User** C. 開發者 D. 監管機構
+A. 攻擊者 B. Road User C. 開發者 D. 監管機構
 
 > [!answer]-
 > **B. Road User**
@@ -136,11 +136,11 @@ A. 攻擊者 B. **Road User** C. 開發者 D. 監管機構
 
 下列哪些屬於 ISO 21434 的 SFOP 衝擊類別？
 
-A. Safety B. **Financial** C. **Operational** D. **Privacy** E. Performance
+A. Safety B. Financial C. Operational D. Privacy E. Performance
 
 > [!answer]-
-> **A, B, C, D**（Safety 也是 SFOP 的 S，但題目沒打星號因排版）。
-> 正確答案：A, B, C, D（**SFOP** = Safety, Financial, Operational, Privacy）。
+> **A, B, C, D**。
+> **SFOP** = Safety, Financial, Operational, Privacy。
 > E. Performance 不在 SFOP 中。
 
 ---
@@ -149,7 +149,7 @@ A. Safety B. **Financial** C. **Operational** D. **Privacy** E. Performance
 
 下列哪些是 Risk Treatment 的合法選項？
 
-A. **Avoid** B. **Reduce** C. **Share/Transfer** D. **Retain** E. Ignore
+A. Avoid B. Reduce C. Share/Transfer D. Retain E. Ignore
 
 > [!answer]-
 > **A, B, C, D**。
@@ -161,10 +161,10 @@ A. **Avoid** B. **Reduce** C. **Share/Transfer** D. **Retain** E. Ignore
 
 下列哪些是 Cybersecurity Plan 的**必要**內容？
 
-A. **活動清單與時程**
-B. **角色與責任 (RASIC)**
-C. **Tailoring 決策**
-D. **適用 Clause**
+A. 活動清單與時程
+B. 角色與責任 (RASIC)
+C. Tailoring 決策
+D. 適用 Clause
 E. 具體加密演算法選擇
 
 > [!answer]-
